@@ -6,7 +6,43 @@
     publish = "target/web-prod/"
 
 [[redirects]]
-    from = "/*/"
+    from = "/*.js"
+    to = "/:splat.js"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/*.css"
+    to = "/:splat.css"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/*.png"
+    to = "/:splat.png"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/*.gif"
+    to = "/:splat.gif"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/*.jpg"
+    to = "/:splat.jpg"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/*.svg"
+    to = "/:splat.svg"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/*"
     to = "/index.html"
     status = 200
     force = true
