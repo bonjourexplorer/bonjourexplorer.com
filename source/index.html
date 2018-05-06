@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="utf-8"/>
+    <title>Bonjour Explorer!</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta
+        name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"
+        />
+
+    <style>html { font-size: 10px } /* Avoid flash of wrong font size */</style>
+    <link
+        rel="stylesheet"
+        href="//fonts.googleapis.com/css?family=Abril+Fatface|Raleway"
+        />
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"
+        integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw=="
+        crossorigin=""
+        /><!-- use unpkg for now, cuz webpack wreaks havoc on file names ref'd in js -->
+    <!-- asset-injector-webpack-plugin styles.css -->
+
+    <script
+        src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
+        integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="
+        crossorigin=""
+        ></script><!-- use unpkg for now, cuz webpack wreaks havoc on file names ref'd in js -->
+    <!-- asset-injector-webpack-plugin manifest.js -->
+    <!-- asset-injector-webpack-plugin lib.js -->
+    <!-- asset-injector-webpack-plugin index.js -->
+</head>
+<body>
+
+    <div id="nav-map" class="nav-map"></div>
+
+    <a href="/" class="logo-link" title="Bonjour Explorer!">
+        <img
+            src="/images/home.svg"
+            alt="Bonjour Explorer!"
+            class="logo"
+            height="40"
+            />
+    </a>
+
+    <main id="app"></main>
+
+    <a
+        href="https://www.instagram.com/bonjourexplorer/"
+        id="social-link-0"
+        class="social-link"
+        target="_blank"
+        >
+        <img
+            src="/images/icon-instagram.svg"
+            alt="Bonjour Explorer! on Instagram"
+            class="social-icon"
+            width="30"
+            height="30"
+            />
+    </a>
+    <a
+        href="https://www.pinterest.com/bonjourexplorer/"
+        id="social-link-1"
+        class="social-link"
+        target="_blank"
+        style="display:none"
+        >
+        <img
+            src="/images/icon-pinterest.svg"
+            alt="Bonjour Explorer! on Pinterest"
+            class="social-icon"
+            width="30"
+            height="30"
+            />
+    </a>
+
+    <footer>
+        &#10035; Content &copy; Bonjour Explorer!</br>
+        &#10035; <a href="http://leafletjs.com" target="_blank">Leaflet</a> map tiles by <a href="http://stamen.com" target="_blank">Stamen Design</a></br>
+        &#10035; Map data &copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>
+    </footer>
+</body>
+</html>

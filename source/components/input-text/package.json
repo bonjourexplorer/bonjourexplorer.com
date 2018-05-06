@@ -1,0 +1,6 @@
+{
+    "name": "input-text",
+    "version": "0.1.0",
+    "description": "Basic text input element",
+    "main": "input-text.js"
+}

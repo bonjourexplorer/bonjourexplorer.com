@@ -1,0 +1,4 @@
+{
+    "build_dir": "web-stage",
+    "public_path": "https://bonjourexplorer-staging.netlify.com/"
+}

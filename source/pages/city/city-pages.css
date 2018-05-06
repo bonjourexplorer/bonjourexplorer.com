@@ -1,0 +1,33 @@
+main {
+    text-align: justify;
+    
+    &.page {
+        background-color: rgba(255, 255, 255, 0.9);
+
+        h1 {
+            color: #555555;
+            font-size: 4rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.google-maps-link {
+    font-size: 2rem;
+}
+
+.place-list {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+    .place-title {
+        display: inline-block;
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+    .place-subtitle {
+        opacity: 1;
+    }

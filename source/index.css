@@ -1,0 +1,286 @@
+@import './pages/**/*.css';
+@import './components/**/*.css';
+
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; }
+
+
+
+html {
+
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+
+@custom-media --headerify-menu (min-width: 600px);
+
+$header-height: 4rem;
+$header-gutter: 1rem;
+$header-half-gutter: 0.5rem;
+$header-icon-size: 2rem;
+$main-gutter: 1rem;
+$main-half-gutter: 0.5rem;
+$header-gutter-plus-main-gutter: 5rem;
+
+$action-color: rgba(255, 187, 187, 1);
+$background-color: rgba(246, 194, 205, 0.85);
+$negative-font-color: #ffffff;
+
+$subtle-transition-time: 0.25s;
+
+
+
+body > header {
+    /* Position in front of veil */
+    position: relative;
+        z-index: 1001;
+
+    background-color: $action-color;
+    height: $header-height;
+}
+
+    /* Enforce header height on child elements that overflow */
+    body > header > nav,
+    .logo-link {
+        height: $header-height;
+    }
+
+    .logo-link {
+        position: absolute;
+            top: 1rem;
+            left: 1rem;
+            z-index: 1002;
+        height: 4rem;
+        background-color: $background-color;
+        border-radius: 4px;
+    }
+
+    .social-link {
+        position: absolute;
+            bottom: 1rem;
+            z-index: 1002;
+        height: 4rem;
+        width: 4rem;
+        padding: 0.5rem;
+        background-color: $background-color;
+        border-radius: 7px;
+    }
+    #social-link-0 {
+        /* right: 6rem; */
+        right: 1rem;
+    }
+    #social-link-1 {
+        right: 1rem;
+    }
+    a {
+        color: #FA0076;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .main-nav-toggler {
+        float: right;
+        width: $header-height;
+        height: $header-height;
+        position: relative;
+            z-index: 1002;
+        background-image: url('images/icon-menu.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: $header-icon-size $header-icon-size;
+        cursor: pointer;
+    }
+
+    .main-nav {
+        position: absolute;
+            top: 0;
+            right: 0;
+        min-width: 20rem;
+        max-width: 80vw;
+        height: 100vh;
+        padding: $header-height 0 0;
+        margin: 0;
+        list-style: none;
+        background-color: $action-color;
+        font-size: 1.6rem;
+        transform: translateX(100%);
+
+        html:not(.loading) & {
+            transition: transform 0.5s;
+        }
+    }
+
+    .main-nav-active {
+        transform: translateX(0);
+    }
+
+    .main-nav-item {
+        line-height: $header-height;
+        padding: 0 2rem;
+        border-bottom: 1px dotted rgba(255, 255, 255, .5);
+
+        a {
+            display: block;
+            color: $negative-font-color;
+            text-decoration: none;
+        }
+
+        &:first-child {
+            border-top: 1px dotted rgba(255, 255, 255, .5);
+        }
+    }
+
+    .main-nav-item-social {
+
+        .social-icon {
+            width: $header-icon-size;
+            height: $header-icon-size;
+            margin-right: $header-half-gutter;
+            vertical-align: middle;
+        }
+    }
+
+@media (--headerify-menu) {
+
+    .main-nav-toggler {
+        display: none;
+    }
+
+    .main-nav {
+        position: fixed;
+            top: 0;
+            right: 0;
+        min-width: auto;
+        max-width: none;
+        height: $header-height;
+        padding-top: 0;
+        background-color: transparent;
+        transform: translateX(0);
+    }
+
+    .main-nav-item {
+        display: inline-block;
+        border-bottom: none;
+
+        &:first-child {
+            border-top: none;
+        }
+    }
+
+    .main-nav-item-home {
+        display: none;
+    }
+
+    .main-nav-item-social {
+
+        .main-nav-item-social-network {
+            display: none;
+        }
+    }
+
+    .html-veil.html-veil-activated {
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+
+
+body > main {
+    position: absolute;
+        top: 0;
+        left: 60%;
+        right: 0;
+        bottom: 0;
+        z-index: 1010;
+    padding: $main-half-gutter $main-gutter;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.99);
+    box-shadow: 0 0 5px #999999;
+    transform: translateX(100%);
+    transition:
+        transform $subtle-transition-time
+        ;
+
+    &.page {
+        transform: translateX(0);
+    }
+
+    + #page-close {
+        position: absolute;
+            top: $header-gutter-plus-main-gutter;
+            right: $main-gutter;
+            z-index: -1;
+        color: black;
+        font-size: 4rem;
+        height: $header-height;
+        width: $header-height;
+        text-align: center;
+        line-height: $header-height;
+        text-decoration: none;
+        opacity: 0;
+        transform: scale(.95);
+        transition:
+            opacity $subtle-transition-time,
+            transform $subtle-transition-time
+            ;
+
+        &::before {
+            content: '\00D7';
+        }
+    }
+    &.page + #page-close {
+        z-index: 10;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+.nav-map {
+    height: auto;
+    width: auto;
+    position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+}
+
+.page,
+.city-page {
+    overflow-y: auto;
+}
+
+
+
+body > footer {
+    position: absolute;
+        left: 1rem;
+        bottom: 1rem;
+    text-align: left;
+    font-family: Arial;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: white;
+    text-shadow: 0 0 3px black;
+
+    a {
+        color: white;
+    }
+}
