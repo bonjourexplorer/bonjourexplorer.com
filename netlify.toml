@@ -1,0 +1,12 @@
+[Settings]
+    ID = "bonjourexplorer"
+
+[build]
+    command = "npm run build" 
+    publish = "target/web-prod/"
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
+    force = true
