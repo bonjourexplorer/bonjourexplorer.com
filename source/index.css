@@ -203,10 +203,10 @@ body > header {
 body > main {
     position: absolute;
         top: 0;
-        left: 60%;
         right: 0;
         bottom: 0;
         z-index: 1010;
+    width: 30rem;
     padding: $main-half-gutter $main-gutter;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.99);
