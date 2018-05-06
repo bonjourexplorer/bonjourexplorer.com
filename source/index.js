@@ -139,7 +139,7 @@
                 && App.history.push({
                     path: `/city/${ city_slug }`,
                     page: {
-                        title: `${ city.name } #BEin${ city.name }`,
+                        title: `#BEin${ city.title }`,
                         props: { city },
                         }, // eslint-disable-line
                     }) // eslint-disable-line
