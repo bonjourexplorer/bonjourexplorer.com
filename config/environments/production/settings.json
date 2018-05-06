@@ -1,4 +1,4 @@
 {
     "build_dir": "web-prod",
-    "public_path": "https://www.bonjourexplorer.com/"
+    "public_path": "/"
 }
