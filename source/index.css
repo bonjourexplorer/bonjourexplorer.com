@@ -201,23 +201,34 @@ body > header {
 
 
 body > main {
+    top: 0;
+    left: auto;
+    width: 30rem;
+    transform: translate(100%, 0);
+}
+
+html.viewport-small.viewport-portrait > body > main {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0, 100%);
+}
+
+body > main {
     position: absolute;
-        top: 0;
         right: 0;
         bottom: 0;
         z-index: 1010;
-    width: 30rem;
     padding: $main-half-gutter $main-gutter;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.99);
     box-shadow: 0 0 5px #999999;
-    transform: translateX(100%);
     transition:
         transform $subtle-transition-time
         ;
 
     &.page {
-        transform: translateX(0);
+        transform: translate(0, 0) !important;
     }
 
     + #page-close {

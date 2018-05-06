@@ -37,9 +37,19 @@
             { padding: [ 50, 50 ], animate: true, pan: { animate: true }, zoom: { animate: true } },
             );
         nav_map.once('moveend zoomend', function then_offset_pan() {
+            const root_element = document.documentElement;
+            const root_class_list = root_element.classList;
+            const viewport_height = Number(
+                root_element.getAttribute('data-viewport-height'),
+                ); // eslint-disable-line indent
+            const app_element = document.getElementById('app');
+            const offset = root_class_list.contains('viewport-small')
+                && root_class_list.contains('viewport-portrait')
+                    ? [ 0, -0.25 * viewport_height ]
+                    : [ -0.5 * app_element.offsetWidth, 0 ]
+                ; // eslint-disable-line indent
             const map_center = nav_map.getSize().divideBy(2);
-            const offset = 0.5 * document.getElementById('app').offsetWidth;
-            const offset_map_center = map_center.subtract([ -1 * offset, 0 ]);
+            const offset_map_center = map_center.subtract(offset);
             const lat_long = nav_map.containerPointToLatLng(offset_map_center);
             nav_map.panTo(lat_long);
             }); // eslint-disable-line indent

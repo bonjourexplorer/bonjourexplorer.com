@@ -32,6 +32,20 @@
     <!-- asset-injector-webpack-plugin index.js -->
 </head>
 <body>
+    <script>
+        var viewport = document.createElement('div')
+        var root = document.documentElement;
+        viewport.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0';
+        root.insertBefore(viewport, root.firstChild);
+        viewport.offsetWidth <= 600 && (root.className += ' viewport-small');
+        root.className += viewport.offsetWidth <= viewport.offsetHeight
+            ? ' viewport-portrait'
+            : ' viewport-landscape'
+            ;
+        root.setAttribute('data-viewport-width', viewport.offsetWidth);
+        root.setAttribute('data-viewport-height', viewport.offsetHeight);
+        root.removeChild(viewport);
+    </script>
 
     <div id="nav-map" class="nav-map"></div>
 
