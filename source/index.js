@@ -83,7 +83,7 @@
             zoomAnimationThreshold: 100,
             attributionControl: false,
             }); // eslint-disable-line
-        Leaflet.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', { // eslint-disable-line max-len
+        Leaflet.tileLayer('//stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', { // eslint-disable-line max-len
             subdomains: 'abcd',
             minZoom: 1,
             maxZoom: 16,

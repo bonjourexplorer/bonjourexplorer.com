@@ -12,14 +12,14 @@ html {
 }
 
 body {
-    font-family: Raleway, sans-serif;
-    font-size: 1.4rem;
+    font: 300 1.4rem/2rem Muli, sans-serif;
+}
+strong {
+    font-weight: 700;
 }
 
 h1 {
-    font-family: 'Abril Fatface', serif;
-    font-weight: normal;
-    font-size: 4rem;
+    font: normal 3rem/4rem 'Cherry Swash', serif;
 }
 
 
@@ -34,7 +34,7 @@ $main-half-gutter: 0.5rem;
 $header-gutter-plus-main-gutter: 5rem;
 
 $action-color: rgba(255, 187, 187, 1);
-$background-color: rgba(246, 194, 205, 0.85);
+$background-color: rgba(246, 194, 205, 0.9);
 $negative-font-color: #ffffff;
 
 $subtle-transition-time: 0.25s;
@@ -61,9 +61,16 @@ body > header {
             top: 1rem;
             left: 1rem;
             z-index: 1002;
-        height: 4rem;
-        background-color: $background-color;
-        border-radius: 4px;
+        margin: 0;
+
+        > a {
+            height: 4rem;
+            padding: 0 1rem;
+            background-color: $background-color;
+            border-radius: 4px;
+            color: white;
+            text-decoration: none !important;
+        }
     }
 
     .social-link {

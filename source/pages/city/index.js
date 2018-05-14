@@ -82,7 +82,7 @@
 
     function render_place_li(place) {
         const be_blurb = place.be_blurb
-            ? <em><br/>✳BE: { place.be_blurb }</em>
+            ? <em><br/>{ place.be_blurb }</em>
             : null
             ; // eslint-disable-line indent
         return (
