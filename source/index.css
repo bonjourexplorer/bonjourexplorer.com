@@ -268,7 +268,7 @@ body > main {
         left: auto;
         width: 30rem;
         height: 100vh;
-        padding: $main-gutter $main-gutter $main-double-gutter;
+        padding: $main-gutter $main-gutter 0;
     }
 }
 
