@@ -22,6 +22,21 @@ h1 {
     font: normal 3rem/4rem 'Cherry Swash', serif;
 }
 
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 2rem 0;
+}
+
+.note {
+    display: block;
+    color: #333333;
+    font-size: 75%;
+    font-weight: normal;
+}
+
 
 @custom-media --headerify-menu (min-width: 600px);
 
@@ -31,11 +46,14 @@ $header-half-gutter: 0.5rem;
 $header-icon-size: 2rem;
 $main-gutter: 1rem;
 $main-half-gutter: 0.5rem;
+$main-double-gutter: 2rem;
 $header-gutter-plus-main-gutter: 5rem;
 
 $action-color: rgba(255, 187, 187, 1);
-$background-color: rgba(246, 194, 205, 0.9);
+$background-color: rgba(246, 194, 205, 0.8);
 $negative-font-color: #ffffff;
+
+$box-shadow: 0 0 10px #aaaaaa;
 
 $subtle-transition-time: 0.25s;
 
@@ -62,8 +80,11 @@ body > header {
             left: 1rem;
             z-index: 1002;
         margin: 0;
+        text-align: center;
+        box-shadow: $box-shadow;
 
         > a {
+            display: block;
             height: 4rem;
             padding: 0 1rem;
             background-color: $background-color;
@@ -73,22 +94,51 @@ body > header {
         }
     }
 
-    .social-link {
-        position: absolute;
-            bottom: 1rem;
-            z-index: 1002;
+    .instagram {
+        display: block;
         height: 4rem;
         width: 4rem;
         padding: 0.5rem;
+        background-image: url('images/icon-instagram.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 3rem 3rem;
         background-color: $background-color;
         border-radius: 7px;
+        box-shadow: $box-shadow;
     }
-    #social-link-0 {
-        /* right: 6rem; */
-        right: 1rem;
+    .instagram-main {
+        position: fixed;
+            right: 1rem;
+            bottom: 1rem;
     }
-    #social-link-1 {
-        right: 1rem;
+    .instagram-city {
+        position: fixed;
+            top: 100vh;
+            right: 31rem;
+            z-index: 1002;
+        margin-top: -5rem;
+    }
+    .go-back {
+        position: fixed;
+            top: 1rem;
+            right: 31rem;
+            z-index: 1002;
+        height: 4rem;
+        width: 4rem;
+        margin-bottom: -4rem;
+        background-color: $background-color;
+        border-radius: 7px;
+        color: white;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        text-align: center;
+        box-shadow: $box-shadow;
+        cursor: pointer;
+
+        &::before {
+            content: '\2AF7';
+        }
     }
     a {
         color: #FA0076;
@@ -208,35 +258,37 @@ body > header {
 
 
 body > main {
-    top: 0;
-    left: auto;
-    width: 30rem;
-    transform: translate(100%, 0);
+    position: relative;
+        z-index: 1000;
+    height: 0;
+    transform: translate(150%, 0);
+
+    .city-page {
+        top: 0;
+        left: auto;
+        width: 30rem;
+        height: 100vh;
+        padding: $main-gutter $main-gutter $main-double-gutter;
+    }
 }
 
-html.viewport-small.viewport-portrait > body > main {
-    top: 50%;
-    left: 0;
-    width: 100%;
-    transform: translate(0, 100%);
+body.page .nav-map {
+    transform: translateX(-15rem);
 }
 
-body > main {
+body > main.page {
+    transform: translate(0, 0) !important;
+}
+
+body > main .city-page {
     position: absolute;
         right: 0;
         bottom: 0;
         z-index: 1010;
-    padding: $main-half-gutter $main-gutter;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.99);
-    box-shadow: 0 0 5px #999999;
     transition:
         transform $subtle-transition-time
         ;
-
-    &.page {
-        transform: translate(0, 0) !important;
-    }
 
     + #page-close {
         position: absolute;
@@ -278,11 +330,59 @@ body > main {
         left: 0;
         right: 0;
         bottom: 0;
+    transform: translateX(0);
+    transition: transform $subtle-transition-time;
 }
+    .leaflet-tooltip {
+        font-family: Muli, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+    .leaflet-marker-icon {
+        width: 0;
+        height: 0;
+        padding: 41px 25px 0 0;
+        background-image: url('images/leaflet-icon.png');
+        background-size: auto;
 
-.page,
+        &:hover {
+            background-image: url('images/leaflet-icon-active.png');
+        }
+    }
+
 .city-page {
     overflow-y: auto;
+}
+
+
+
+html.viewport-small.viewport-portrait > body {
+
+    .logo-link {
+        right: 1rem;
+    }
+
+    &.page .nav-map {
+        transform: translateY(-25rem);
+    }
+
+    & > main {
+        transform: translate(0, 100%);
+
+        .city-page {
+            top: 50vh;
+            left: 0;
+            width: 100vw;
+            height: 50vh;
+        }
+
+        .instagram-city {
+            position: absolute;
+                bottom: 1rem;
+                right: 1rem;
+                z-index: 1050;
+            margin-top: -5rem;
+            box-shadow: none;
+        }
+    }
 }
 
 

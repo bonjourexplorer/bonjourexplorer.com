@@ -1,5 +1,6 @@
 // eslint-disable-next-line max-params
 (function main(
+    App,
     Mobx,
     React,
     Mobx_react,
@@ -31,27 +32,14 @@
         const { places } = this.state;
         nav_map.removeLayer(cities_layer);
         const places_layer = add_places_layer.call(this, places);
-        nav_map.fitBounds(
-            places_layer.getBounds(),
-            // eslint-disable-next-line
-            { padding: [ 50, 50 ], animate: true, pan: { animate: true }, zoom: { animate: true } },
-            );
-        nav_map.once('moveend zoomend', function then_offset_pan() {
-            const root_element = document.documentElement;
-            const root_class_list = root_element.classList;
-            const viewport_height = Number(
-                root_element.getAttribute('data-viewport-height'),
-                ); // eslint-disable-line indent
-            const app_element = document.getElementById('app');
-            const offset = root_class_list.contains('viewport-small')
-                && root_class_list.contains('viewport-portrait')
-                    ? [ 0, -0.25 * viewport_height ]
-                    : [ -0.5 * app_element.offsetWidth, 0 ]
-                ; // eslint-disable-line indent
-            const map_center = nav_map.getSize().divideBy(2);
-            const offset_map_center = map_center.subtract(offset);
-            const lat_long = nav_map.containerPointToLatLng(offset_map_center);
-            nav_map.panTo(lat_long);
+        const html_class_list = document.documentElement.classList;
+        nav_map.fitBounds(places_layer.getBounds(), {
+            padding: html_class_list.contains('viewport-small')
+                && html_class_list.contains('viewport-portrait')
+                    ? [ 10, 50 ]
+                    : [ 200, 50 ]
+                , // eslint-disable-line
+            animate: true,
             }); // eslint-disable-line indent
     }
 
@@ -63,21 +51,51 @@
             return null;
         }
         const place_li_list = places.map(render_place_li);
-        return (
+        const urls = {
+            home: '/',
+            maps: city.google_maps_list_url,
+            wishlist: city.google_maps_wishlist_url,
+            hashtag:
+                `https://www.instagram.com/explore/tags/BEin${ city.title }`,
+            }; // eslint-disable-line indent
+        return <React.Fragment>
+            <span
+                onClick={ () => App.history.push({ path: urls.home }) }
+                className="go-back"
+                title="Go back to ⨳BE Cities"
+                />
             <div className="city-page">
                 <h1>
                     { city.title }<br/>
                     <a
-                        href={ city.google_maps_list_url }
+                        href={ urls.maps }
                         target="_blank"
                         className="google-maps-link"
                         >
                         View in Google Maps
                     </a>
+                    <span className="note">
+                        Remember to click <strong>Follow</strong>!
+                    </span>
                 </h1>
+                <hr/>
                 <ul className="place-list">{ place_li_list }</ul>
+                <hr/>
+                <a
+                    href={ urls.wishlist }
+                    target="_blank"
+                    className="google-maps-wishlist-link"
+                    >
+                    View ⨳BE's Wishlist in Google Maps
+                </a>
             </div>
-            ); // eslint-disable-line indent
+            <a
+                href={ urls.hashtag }
+                className="instagram instagram-city"
+                title={ `#BEin${ city.title }` }
+                target="_blank"
+                />
+            </React.Fragment>; // eslint-disable-line indent
     }
 
     function render_place_li(place) {
@@ -113,8 +131,10 @@
             const coordinates = place.lat_long.split(',');
             const marker = Leaflet.marker(coordinates, {
                 riseOnHover: true,
-                title: place.title,
                 alt: place.title,
+                }); // eslint-disable-line
+            marker.bindTooltip(place.title, {
+                interactive: true,
                 }); // eslint-disable-line
             // marker.on('click', click_marker);
             place_markers.push(marker);
@@ -138,6 +158,7 @@
             ; // eslint-disable-line indent
     }
 }(
+    require('../../index.js'),
     require('mobx'),
     require('react'),
     require('mobx-react'),

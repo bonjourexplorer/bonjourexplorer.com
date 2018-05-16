@@ -9,7 +9,8 @@
     City_store,
     ) {
     const html_element_class_list = document.documentElement.classList;
-    return document.addEventListener('DOMContentLoaded', load_app);
+    document.addEventListener('DOMContentLoaded', load_app);
+    return module.exports = App;
 
     // -----------
 
@@ -103,7 +104,6 @@
                 const coordinates = city.lat_long.split(',');
                 const marker = Leaflet.marker(coordinates, {
                     riseOnHover: true,
-                    title: city.title,
                     alt: city.title,
                     city_slug: city.slug,
                     }); // eslint-disable-line
