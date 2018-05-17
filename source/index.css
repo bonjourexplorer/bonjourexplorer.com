@@ -382,7 +382,6 @@ html.viewport-small.viewport-portrait > body {
                 left: 1rem;
                 z-index: 1050;
             margin-top: -5rem;
-            box-shadow: none;
         }
 
         .instagram-city {
@@ -391,7 +390,6 @@ html.viewport-small.viewport-portrait > body {
                 right: 1rem;
                 z-index: 1050;
             margin-top: -5rem;
-            box-shadow: none;
         }
     }
 }
