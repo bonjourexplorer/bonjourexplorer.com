@@ -22,6 +22,15 @@ h1 {
     font: normal 3rem/4rem 'Cherry Swash', serif;
 }
 
+a {
+    color: #FA0076;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 hr {
     border: 0;
     height: 0;
@@ -30,15 +39,7 @@ hr {
     margin: 2rem 0;
 }
 
-.note {
-    display: block;
-    color: #333333;
-    font-size: 75%;
-    font-weight: normal;
-}
-
-
-@custom-media --headerify-menu (min-width: 600px);
+/* ----------- */
 
 $header-height: 4rem;
 $header-gutter: 1rem;
@@ -57,205 +58,7 @@ $box-shadow: 0 0 10px #aaaaaa;
 
 $subtle-transition-time: 0.25s;
 
-
-
-body > header {
-    /* Position in front of veil */
-    position: relative;
-        z-index: 1001;
-
-    background-color: $action-color;
-    height: $header-height;
-}
-
-    /* Enforce header height on child elements that overflow */
-    body > header > nav,
-    .logo-link {
-        height: $header-height;
-    }
-
-    .logo-link {
-        position: absolute;
-            top: 1rem;
-            left: 1rem;
-            z-index: 1002;
-        margin: 0;
-        text-align: center;
-        box-shadow: $box-shadow;
-
-        > a {
-            display: block;
-            height: 4rem;
-            padding: 0 1rem;
-            background-color: $background-color;
-            border-radius: 4px;
-            color: white;
-            text-decoration: none !important;
-        }
-    }
-
-    .instagram {
-        display: block;
-        height: 4rem;
-        width: 4rem;
-        padding: 0.5rem;
-        background-image: url('images/icon-instagram.svg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: 3rem 3rem;
-        background-color: $background-color;
-        border-radius: 7px;
-        box-shadow: $box-shadow;
-    }
-    .instagram-main {
-        position: fixed;
-            right: 1rem;
-            bottom: 1rem;
-    }
-    .instagram-city {
-        position: fixed;
-            top: 100vh;
-            right: 31rem;
-            z-index: 1002;
-        margin-top: -5rem;
-    }
-    .go-back {
-        position: fixed;
-            top: 1rem;
-            right: 31rem;
-            z-index: 1002;
-        height: 4rem;
-        width: 4rem;
-        margin-bottom: -4rem;
-        background-color: $background-color;
-        border-radius: 7px;
-        color: white;
-        font-size: 2.5rem;
-        line-height: 4rem;
-        text-align: center;
-        box-shadow: $box-shadow;
-        cursor: pointer;
-
-        &::before {
-            content: '\2AF7';
-        }
-    }
-    a {
-        color: #FA0076;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
-    .main-nav-toggler {
-        float: right;
-        width: $header-height;
-        height: $header-height;
-        position: relative;
-            z-index: 1002;
-        background-image: url('images/icon-menu.svg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: $header-icon-size $header-icon-size;
-        cursor: pointer;
-    }
-
-    .main-nav {
-        position: absolute;
-            top: 0;
-            right: 0;
-        min-width: 20rem;
-        max-width: 80vw;
-        height: 100vh;
-        padding: $header-height 0 0;
-        margin: 0;
-        list-style: none;
-        background-color: $action-color;
-        font-size: 1.6rem;
-        transform: translateX(100%);
-
-        html:not(.loading) & {
-            transition: transform 0.5s;
-        }
-    }
-
-    .main-nav-active {
-        transform: translateX(0);
-    }
-
-    .main-nav-item {
-        line-height: $header-height;
-        padding: 0 2rem;
-        border-bottom: 1px dotted rgba(255, 255, 255, .5);
-
-        a {
-            display: block;
-            color: $negative-font-color;
-            text-decoration: none;
-        }
-
-        &:first-child {
-            border-top: 1px dotted rgba(255, 255, 255, .5);
-        }
-    }
-
-    .main-nav-item-social {
-
-        .social-icon {
-            width: $header-icon-size;
-            height: $header-icon-size;
-            margin-right: $header-half-gutter;
-            vertical-align: middle;
-        }
-    }
-
-@media (--headerify-menu) {
-
-    .main-nav-toggler {
-        display: none;
-    }
-
-    .main-nav {
-        position: fixed;
-            top: 0;
-            right: 0;
-        min-width: auto;
-        max-width: none;
-        height: $header-height;
-        padding-top: 0;
-        background-color: transparent;
-        transform: translateX(0);
-    }
-
-    .main-nav-item {
-        display: inline-block;
-        border-bottom: none;
-
-        &:first-child {
-            border-top: none;
-        }
-    }
-
-    .main-nav-item-home {
-        display: none;
-    }
-
-    .main-nav-item-social {
-
-        .main-nav-item-social-network {
-            display: none;
-        }
-    }
-
-    .html-veil.html-veil-activated {
-        z-index: -1;
-        opacity: 0;
-    }
-}
-
-
+/* ----------- */
 
 body > main {
     position: relative;
@@ -263,64 +66,47 @@ body > main {
     height: 0;
     transform: translate(150%, 0);
 
+    &.page {
+        transform: translate(0, 0) !important;
+    }
+
     .city-page {
-        top: 0;
-        left: auto;
+        position: absolute;
+            top: 0;
+            left: auto;
+            right: 0;
+            bottom: 0;
+            z-index: 1010;
         width: 30rem;
         height: 100vh;
         padding: $main-gutter $main-gutter 0;
+        text-align: left;
+        overflow-y: auto;
+        transition: transform $subtle-transition-time;
     }
 }
+
+body > footer {
+    position: absolute;
+        left: 1rem;
+        bottom: 1rem;
+    text-align: left;
+    font-family: Arial;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: white;
+    text-shadow: 0 0 3px black;
+
+    a {
+        color: white;
+    }
+}
+
+/* ----------- */
 
 body.page .nav-map {
     transform: translateX(-15rem);
 }
-
-body > main.page {
-    transform: translate(0, 0) !important;
-}
-
-body > main .city-page {
-    position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 1010;
-    text-align: left;
-    transition:
-        transform $subtle-transition-time
-        ;
-
-    + #page-close {
-        position: absolute;
-            top: $header-gutter-plus-main-gutter;
-            right: $main-gutter;
-            z-index: -1;
-        color: black;
-        font-size: 4rem;
-        height: $header-height;
-        width: $header-height;
-        text-align: center;
-        line-height: $header-height;
-        text-decoration: none;
-        opacity: 0;
-        transform: scale(.95);
-        transition:
-            opacity $subtle-transition-time,
-            transform $subtle-transition-time
-            ;
-
-        &::before {
-            content: '\00D7';
-        }
-    }
-    &.page + #page-close {
-        z-index: 10;
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-
 
 .nav-map {
     height: auto;
@@ -350,23 +136,98 @@ body > main .city-page {
         }
     }
 
-.city-page {
-    overflow-y: auto;
+/* ----------- */
+
+.logo-link {
+    position: absolute;
+        top: 1rem;
+        left: 1rem;
+        z-index: 1002;
+    margin: 0;
+    text-align: center;
+    box-shadow: $box-shadow;
+
+    > a {
+        display: block;
+        height: 4rem;
+        padding: 0 1rem;
+        background-color: $background-color;
+        border-radius: 4px;
+        color: white;
+        text-decoration: none !important;
+    }
 }
 
+.instagram {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    padding: 0.5rem;
+    background-image: url('images/icon-instagram.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 3rem 3rem;
+    background-color: $background-color;
+    border-radius: 7px;
+    box-shadow: $box-shadow;
+}
+.instagram-main {
+    position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+}
+.instagram-city {
+    position: fixed;
+        top: 100vh;
+        right: 31rem;
+        z-index: 1002;
+    margin-top: -5rem;
+}
+.go-back {
+    position: fixed;
+        top: 1rem;
+        right: 31rem;
+        z-index: 1002;
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: -4rem;
+    background-color: $background-color;
+    border-radius: 7px;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: center;
+    box-shadow: $box-shadow;
+    cursor: pointer;
 
+    &::before {
+        content: '\2AF7';
+    }
+}
 
-html.viewport-small.viewport-portrait > body {
+.note {
+    display: block;
+    color: #333333;
+    font-size: 75%;
+    font-weight: normal;
+}
+
+/* ----------- */
+
+@custom-media --small (max-width: 600px);
+@custom-media --portrait (orientation: portrait);
+
+@media (--small) and (--portrait) {
 
     .logo-link {
         right: 1rem;
     }
 
-    &.page .nav-map {
-        transform: translateY(-25rem);
+    body.page .nav-map {
+        transform: translateY(-15rem);
     }
 
-    & > main {
+    main.page {
         transform: translate(0, 100%);
 
         .city-page {
@@ -391,23 +252,5 @@ html.viewport-small.viewport-portrait > body {
                 z-index: 1050;
             margin-top: -5rem;
         }
-    }
-}
-
-
-
-body > footer {
-    position: absolute;
-        left: 1rem;
-        bottom: 1rem;
-    text-align: left;
-    font-family: Arial;
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-    color: white;
-    text-shadow: 0 0 3px black;
-
-    a {
-        color: white;
     }
 }
