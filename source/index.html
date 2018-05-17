@@ -45,6 +45,9 @@
         root.setAttribute('data-viewport-width', viewport.offsetWidth);
         root.setAttribute('data-viewport-height', viewport.offsetHeight);
         root.removeChild(viewport);
+        -1 !== window.navigator.userAgent.indexOf('Mobile Safari')
+            && root.setAttribute('data-engine', 'webkit-mobile')
+            ;
     </script>
 
     <div id="nav-map" class="nav-map"></div>
