@@ -127,8 +127,8 @@
         const path = `/city/${ city.slug }/${ place.google_place_id }`;
         return (
             <li key={ place.id } className="place-list-item">
-                <a
-                    href={ path }
+                <span
+                    data-path={ path }
                     className="place-title"
                     onClick={ click_place_li.bind(this) }
                     onMouseOver={ mouseover_place_li.bind(this) }
@@ -137,7 +137,7 @@
                     { place.title }
                     { ' ' }
                     <span className="place-subtitle">{ place.subtitle }</span>
-                </a>
+                </span>
                 <div className="place-blurb">
                     { place.google_blurb || '—' }
                     { be_blurb }
@@ -226,12 +226,11 @@
     // -----------
 
     function click_place_li(click_event) {
-        click_event.preventDefault();
-        App.history.push({ path: click_event.target.href });
+        App.history.push({ path: click_event.target.dataset.path });
     }
 
     function mouseover_place_li(mouse_event) {
-        const id = mouse_event.target.href.split('/').pop();
+        const id = mouse_event.target.dataset.path.split('/').pop();
         this.activate_tooltip(id);
     }
 
