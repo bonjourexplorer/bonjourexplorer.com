@@ -198,8 +198,11 @@
                 alt: place.title,
                 place: { id: place.google_place_id, title: place.title },
                 city: { title: city.title, slug: city.slug },
-                }); // eslint-disable-line
-            marker.bindTooltip(place.title, { interactive: true });
+                }); // eslint-disable-line indent
+            marker.bindTooltip(
+                build_tooltip_content(place),
+                { interactive: true },
+                ); // eslint-disable-line indent
             marker.on('click', click_marker.bind(this));
             marker.on('mouseout', mouseout_marker.bind(this));
             place_markers.push(marker);
@@ -210,6 +213,27 @@
             ; // eslint-disable-line indent
         places_layer.addTo(nav_map);
         return places_layer;
+
+        // -----------
+
+        function build_tooltip_content(place) {
+            let tooltip_content;
+            if (place.subtitle) {
+                tooltip_content = document.createElement('span');
+                tooltip_content.appendChild(
+                    document.createTextNode(`${ place.title } `),
+                    ); // eslint-disable-line indent
+                const subtitle_html = document.createElement('span');
+                subtitle_html.className = 'place-subtitle';
+                subtitle_html.appendChild(
+                    document.createTextNode(place.subtitle),
+                    ); // eslint-disable-line indent
+                tooltip_content.appendChild(subtitle_html);
+            } else {
+                tooltip_content = place.title || '';
+            }
+            return tooltip_content;
+        }
     }
 
     function pre_unmount() {
