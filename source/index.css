@@ -343,8 +343,10 @@ body > main .city-page {
         background-image: url('images/leaflet-icon.png');
         background-size: auto;
 
+        &.active,
         &:hover {
             background-image: url('images/leaflet-icon-active.png');
+            z-index: 999 !important;
         }
     }
 

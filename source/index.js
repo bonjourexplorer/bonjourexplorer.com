@@ -156,8 +156,8 @@
                 element: app_element,
                 routes: [
                     {
-                        route_pattern: /^\/city\/([^/]+)$/,
-                        route_pattern_tokens: [ 'city_slug' ],
+                        route_pattern: /^\/city\/([^/]+)(?:\/([^/]+))?$/,
+                        route_pattern_tokens: [ 'city_slug', 'place_id' ],
                         page_component: require('./pages/city'),
                         }, // eslint-disable-line
                     ], // eslint-disable-line

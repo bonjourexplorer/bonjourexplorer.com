@@ -6,7 +6,8 @@ main {
 
         h1 {
             color: #555555;
-            margin: 0 0 1rem;
+            margin: 0.5rem 0 1rem;
+            line-height: 1em;
 
             .note {
                 font-family: Muli, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -57,7 +58,33 @@ main {
     .place-title {
         display: inline-block;
         font-weight: bold;
+        color: #FA0076;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
     .place-subtitle {
         opacity: 1;
     }
+
+.city-page {
+
+    &.place-active {
+    
+    }
+
+    .city-content,
+    .place-content {
+        transition: transform 0.25s;
+    }
+
+    .city-content {
+        transform: translateX(0);
+    }
+
+    .place-content {
+        transform: translateX(0);
+    }
+}
