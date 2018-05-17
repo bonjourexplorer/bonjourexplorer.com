@@ -376,6 +376,15 @@ html.viewport-small.viewport-portrait > body {
             height: 50vh;
         }
 
+        .go-back {
+            position: absolute;
+                top: 50vh;
+                left: 1rem;
+                z-index: 1050;
+            margin-top: -5rem;
+            box-shadow: none;
+        }
+
         .instagram-city {
             position: absolute;
                 bottom: 1rem;

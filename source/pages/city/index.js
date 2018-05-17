@@ -83,6 +83,7 @@
                 className="instagram instagram-city"
                 title={ `#BEin${ city.title }` }
                 target="_blank"
+                style={ { display: 'none' } }
                 />
             </React.Fragment>; // eslint-disable-line indent
     }
