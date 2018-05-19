@@ -51,7 +51,7 @@ $main-double-gutter: 2rem;
 $header-gutter-plus-main-gutter: 5rem;
 
 $action-color: rgba(255, 187, 187, 1);
-$background-color: rgba(246, 194, 205, 0.8);
+$background-color: rgba(246, 194, 205, 0.9);
 $negative-font-color: #ffffff;
 
 $box-shadow: 0 0 10px #aaaaaa;
@@ -135,6 +135,10 @@ body.page .nav-map {
             z-index: 999 !important;
         }
     }
+
+.city-page {
+    box-shadow: $box-shadow;
+}
 
 /* ----------- */
 
@@ -236,7 +240,12 @@ body.page .nav-map {
         }
 
         .instagram-main {
-            transform: translate(0, -50vh);
+            transform: translate(0, 0);
+            position: absolute;
+                top: 50vh;
+                right: 1rem;
+                z-index: 1050;
+            margin-top: -5rem;
         }
     }
 
