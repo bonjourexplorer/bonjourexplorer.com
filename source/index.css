@@ -175,6 +175,11 @@ body.page .nav-map {
     position: fixed;
         right: 1rem;
         bottom: 1rem;
+    transition: transform $subtle-transition-time;
+
+    body.page & {
+        transform: translate(-30rem, 0);
+    }
 }
 .instagram-city {
     position: fixed;
@@ -199,6 +204,7 @@ body.page .nav-map {
     text-align: center;
     box-shadow: $box-shadow;
     cursor: pointer;
+    transition: transform $subtle-transition-time;
 
     &::before {
         content: '\2AF7';
@@ -223,8 +229,15 @@ body.page .nav-map {
         right: 1rem;
     }
 
-    body.page .nav-map {
-        transform: translateY(-15rem);
+    body.page {
+
+        .nav-map {
+            transform: translateY(-15rem);
+        }
+
+        .instagram-main {
+            transform: translate(0, -50vh);
+        }
     }
 
     main.page {
@@ -259,6 +272,6 @@ html[data-engine="webkit-mobile"] {
 
     /* yuck */
     .city-page {
-        padding-bottom: 50px !important;
+        padding-bottom: 60px !important;
     }
 }
