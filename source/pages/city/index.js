@@ -94,7 +94,7 @@
             place_li_list.push(this.render_place_li(city, place));
         }
         return <React.Fragment>
-            <h1>
+            <h1 className="city-title">
                 { city.title }<br/>
                 <a
                     href={ city.google_maps_list_url }
@@ -107,6 +107,9 @@
                     Remember to click <strong>Follow</strong>!
                 </span>
             </h1>
+            <p>
+                { city.description }
+            </p>
             <hr/>
             <ul className="place-list">{ place_li_list }</ul>
             <hr/>
@@ -121,8 +124,14 @@
     }
 
     function render_place_li(city, place) {
-        const be_blurb = place.be_blurb
-            ? <em><br/>{ place.be_blurb }</em>
+        const google_blurb = place && place.google_blurb
+            ? <span className="place-blurb-google">
+                { place.google_blurb }
+                </span>
+            : null
+            ; // eslint-disable-line indent
+        const be_blurb = place && place.be_blurb
+            ? <span className="place-blurb-be">{ place.be_blurb }</span>
             : null
             ; // eslint-disable-line indent
         const path = `/city/${ city.slug }/${ place.google_place_id }`;
@@ -140,7 +149,7 @@
                     <span className="place-subtitle">{ place.subtitle }</span>
                 </span>
                 <div className="place-blurb">
-                    { place.google_blurb || '—' }
+                    { google_blurb }
                     { be_blurb }
                 </div>
             </li>
@@ -155,12 +164,18 @@
         const address = place.address.split('\n').map(
             (i) => <React.Fragment key={ i }>{ i }<br/></React.Fragment>,
             ); // eslint-disable-line indent
+        const google_blurb = place && place.google_blurb
+            ? <span className="place-blurb-google">
+                { place.google_blurb }
+                </span>
+            : null
+            ; // eslint-disable-line indent
         const be_blurb = place && place.be_blurb
-            ? <em><br/>{ place.be_blurb }</em>
+            ? <span className="place-blurb-be">{ place.be_blurb }</span>
             : null
             ; // eslint-disable-line indent
         return <React.Fragment>
-            <h1>
+            <h1 className="place-title">
                 { place.title }
                 { ' ' }
                 <span className="place-subtitle">{ place.subtitle }</span>
@@ -181,7 +196,7 @@
             <p>{ place.phone }</p>
             <p>{ address }</p>
             <div className="place-blurb">
-                { place.google_blurb || '—' }
+                { google_blurb }
                 { be_blurb }
             </div>
             </React.Fragment>; // eslint-disable-line indent

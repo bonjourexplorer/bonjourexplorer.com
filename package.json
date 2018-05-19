@@ -1,15 +1,15 @@
 {
-    "private": true,
     "name": "bonjour-explorer",
-    "version": "0.1.0",
-    "description": "The Bonjour Explorer! website",
-    "license": "UNLICENSED",
-    "homepage": "https://bitbucket.org/derekdunagan/bonjour-explorer#readme",
+    "version": "0.1.2",
+    "description": "https://bonjourexplorer.com",
+    "homepage": "https://bonjourexplorer.com",
+    "author": "Derek Dunagan (https://github.com/d11n)",
+    "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@bitbucket.org/derekdunagan/bonjour-explorer.git"
+        "url": "git+https://github.com/bonjourexplorer/bonjourexplorer.com.git"
     },
-    "main": "index.html",
+    "main": "source/index.html",
     "dependencies": {
         "axios": "^0.18.0",
         "html-veil": "^0.1.1",

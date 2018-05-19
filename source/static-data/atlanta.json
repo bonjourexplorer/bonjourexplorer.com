@@ -10,10 +10,8 @@
         "lat_long": "33.792586799999995,-84.35286599999999",
         "be_blurb": "",
         "google_blurb": "Cozy, casual bakery & sandwich shop",
-        "google_description": "Relaxed bakery & sandwich shop featuring prepared foods & sweets in snug digs with sidewalk seats.",
         "google_maps_web_url": "https://www.google.com/maps?q=Alon's%20Bakery%20%26%20Market%2C%201394%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJJ2Bj84IG9YgR-63wqvnYpmE",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJJ2Bj84IG9YgR-63wqvnYpmE"
     },
     {
         "id": "recbnkOTsyxF4EwDn",
@@ -24,12 +22,10 @@
         "website_title": "centrostorico.it",
         "website_url": "https://centrostorico.it/",
         "lat_long": "33.7846513,-84.4055889",
-        "be_blurb": "",
+        "be_blurb": "BYOB, you can bring in your own alcohol",
         "google_blurb": "Famed pizza from wood-burning ovens",
-        "google_description": "Busy family-run pizzeria near Georgia Tech known for brick-oven pies, with communal seating & BYOB.",
         "google_maps_web_url": "https://www.google.com/maps?q=Antico%2C%201093%20Hemphill%20Avenue%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJaU_5DHoE9YgRZ6C9Mxbyftk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJaU_5DHoE9YgRZ6C9Mxbyftk"
     },
     {
         "id": "recE0hDTFdnILr36J",
@@ -42,10 +38,8 @@
         "lat_long": "33.7413338,-84.34624699999999",
         "be_blurb": "",
         "google_blurb": "Hip New American pub with beers galore",
-        "google_description": "Stylish gastropub featuring New American fare & a vast craft beer list in wood & exposed-brick digs.",
         "google_maps_web_url": "https://www.google.com/maps?q=Argosy%2C%20470%20Flat%20Shoals%20Ave%20SE%2C%20Atlanta%2C%20GA%2030316",
-        "google_place_id": "ChIJFZ4OdVsB9YgRSBdT8Ml1a8U",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJFZ4OdVsB9YgRSBdT8Ml1a8U"
     },
     {
         "id": "recpG1nvIzZEFX1p0",
@@ -56,12 +50,10 @@
         "website_title": "avivabykameel.com",
         "website_url": "http://www.avivabykameel.com/",
         "lat_long": "33.760562799999995,-84.3865395",
-        "be_blurb": "",
+        "be_blurb": "Kameel is one of the kindest persons you will ever meet; that alone would be reason enough to go, but the food is truly amazing despite it being located in a food court",
         "google_blurb": "Casual Mediterranean fare & a juice bar",
-        "google_description": "Easygoing counter-serve cafe & juice bar providing locally sourced, classic Mediterranean meals.",
         "google_maps_web_url": "https://www.google.com/maps?q=Aviva%20by%20Kameel%2C%20225%20Peachtree%20St%20NE%2C%20Atlanta%2C%20GA%2030303",
-        "google_place_id": "ChIJf4XtTngE9YgRy6PtmJ8_zbI",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJf4XtTngE9YgRy6PtmJ8_zbI"
     },
     {
         "id": "recXEsVoGnqCpxPhV",
@@ -72,17 +64,15 @@
         "website_title": "bantamandbiddy.com",
         "website_url": "http://bantamandbiddy.com/",
         "lat_long": "33.7982326,-84.3708401",
-        "be_blurb": "",
+        "be_blurb": "Love their chicken & waffles with wasabi honey",
         "google_blurb": "Casual spot for rotisserie chicken",
-        "google_description": "Roast-chicken specialist featuring creative, locally sourced Southern food in a relaxed environment.",
         "google_maps_web_url": "https://www.google.com/maps?q=Bantam%20%2B%20Biddy%2C%201544%20Piedmont%20Ave%20NE%20%23301%2C%20Atlanta%2C%20GA%2030324",
-        "google_place_id": "ChIJ35fwYTQE9YgR9jyKoKov0sw",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ35fwYTQE9YgR9jyKoKov0sw"
     },
     {
         "id": "recLBkX5LquJt3SKw",
-        "title": "Barcelona Wine Bar Inman Park",
-        "subtitle": "",
+        "title": "Barcelona Wine Bar",
+        "subtitle": "Inman Park",
         "address": "240 North Highland Ave NE\nAtlanta, GA 30307",
         "phone": "(404) 589-1010",
         "website_title": "barcelonawinebar.com",
@@ -90,10 +80,8 @@
         "lat_long": "33.762670799999995,-84.35884879999999",
         "be_blurb": "",
         "google_blurb": "Big menu of tapas & a wraparound patio",
-        "google_description": "Spanish shareable plates & a long wine list served in a rustic wood setting with a wraparound patio.",
         "google_maps_web_url": "https://www.google.com/maps?q=Barcelona%20Wine%20Bar%20Inman%20Park%2C%20240%20North%20Highland%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJq2ODUwEE9YgR94CN_Crd93k",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJq2ODUwEE9YgR94CN_Crd93k"
     },
     {
         "id": "recFObTJWRwtCK46z",
@@ -104,32 +92,42 @@
         "website_title": "beetlecatatl.com",
         "website_url": "http://www.beetlecatatl.com/",
         "lat_long": "33.762664799999996,-84.3582764",
-        "be_blurb": "",
+        "be_blurb": "Check out the Mad Men-esque lounge downstairs",
         "google_blurb": "Oyster bar with lively downstairs lounge",
-        "google_description": "Upscale oyster bar & cocktail lounge featuring globally inspired seafood & custom drinks.",
         "google_maps_web_url": "https://www.google.com/maps?q=BeetleCat%2C%20299%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJExHbVgEE9YgRr3C4gEB_4_8",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJExHbVgEE9YgRr3C4gEB_4_8"
+    },
+    {
+        "id": "rechZpEHaAvYv9HjK",
+        "title": "Bell Street Burritos",
+        "subtitle": "",
+        "address": "209 Edgewood Ave SE\nAtlanta, GA 30303",
+        "phone": "(678) 732-0488",
+        "website_title": "bellstreetburritos.com",
+        "website_url": "http://www.bellstreetburritos.com/",
+        "lat_long": "33.7539243,-84.38013869999999",
+        "be_blurb": "Local burrito joint that always delivers on flavor",
+        "google_blurb": "Casual spot for Mexican eats",
+        "google_maps_web_url": "https://www.google.com/maps?q=Bell%20Street%20Burritos%2C%20209%20Edgewood%20Ave%20SE%2C%20Atlanta%2C%20GA%2030303",
+        "google_place_id": "ChIJPa8F3YsD9YgRQJK6VabuYJM"
     },
     {
         "id": "recWFumZtd7ybHik6",
         "title": "Bell Street Burritos",
-        "subtitle": "",
+        "subtitle": "Krog Street",
         "address": "112 Krog St NE Suite 1A\nAtlanta, GA 30307",
         "phone": "(678) 732-9122",
         "website_title": "bellstreetburritos.com",
         "website_url": "http://www.bellstreetburritos.com/",
         "lat_long": "33.7561718,-84.3647818",
-        "be_blurb": "",
+        "be_blurb": "Local burrito joint that always delivers on flavor",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Bell%20Street%20Burritos%2C%20112%20Krog%20St%20NE%20Suite%201A%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJQab4HfgD9YgRSiCedOs3fi0",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJQab4HfgD9YgRSiCedOs3fi0"
     },
     {
         "id": "recgjsrjYKebl0Lv9",
-        "title": "Bon Ton Atlanta",
+        "title": "Bon Ton",
         "subtitle": "",
         "address": "674 Myrtle St NE\nAtlanta, GA 30308",
         "phone": "(404) 996-6177",
@@ -138,10 +136,8 @@
         "lat_long": "33.7729895,-84.38040869999999",
         "be_blurb": "",
         "google_blurb": "Vietnamese-Creole fusion seafood & sips",
-        "google_description": "Louisiana meets Vietnam with boiled or fried seafood, plus stiff cocktails & a playful atmosphere.",
         "google_maps_web_url": "https://www.google.com/maps?q=Bon%20Ton%20Atlanta%2C%20674%20Myrtle%20St%20NE%2C%20Atlanta%2C%20GA%2030308",
-        "google_place_id": "ChIJIa9sJ2wE9YgRG9lUqCTz5_Y",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJIa9sJ2wE9YgRG9lUqCTz5_Y"
     },
     {
         "id": "recWZG2fPznfWcnD2",
@@ -152,16 +148,14 @@
         "website_title": "bonegardencantina.com",
         "website_url": "http://www.bonegardencantina.com/",
         "lat_long": "33.793543899999996,-84.4260075",
-        "be_blurb": "",
+        "be_blurb": "Love this hidden Mexican spot",
         "google_blurb": "Colorful spot with Mexican fare & drinks",
-        "google_description": "Day of the Dead decor meets a homestyle Mexican menu & margaritas at this hip, lively cantina.",
         "google_maps_web_url": "https://www.google.com/maps?q=Bone%20Garden%20Cantina%2C%201425%20Ellsworth%20Industrial%20Blvd%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJPZ--sdoE9YgRLp5GjVlehNs",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJPZ--sdoE9YgRLp5GjVlehNs"
     },
     {
         "id": "recZPihbWhSRYdYEB",
-        "title": "Boxwoods Gardens/Gifts/Home",
+        "title": "Boxwoods Gardens & Gifts",
         "subtitle": "",
         "address": "100 E Andrews Dr NW\nAtlanta, GA 30305",
         "phone": "(404) 233-3400",
@@ -170,10 +164,8 @@
         "lat_long": "33.843300899999996,-84.3816545",
         "be_blurb": "",
         "google_blurb": "Go-to shop for sophisticated home decor",
-        "google_description": "Upmarket decor shop with an array of tabletop pieces, home accessories, garden goods & other finds.",
         "google_maps_web_url": "https://www.google.com/maps?q=Boxwoods%20Gardens%2FGifts%2FHome%2C%20100%20E%20Andrews%20Dr%20NW%2C%20Atlanta%2C%20GA%2030305",
-        "google_place_id": "ChIJXTYwFokF9YgRY2isyQJeBGw",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJXTYwFokF9YgRY2isyQJeBGw"
     },
     {
         "id": "recMPaLKOCn5CfIVy",
@@ -184,12 +176,10 @@
         "website_title": "brickstorepub.com",
         "website_url": "http://www.brickstorepub.com/",
         "lat_long": "33.775163899999995,-84.2957763",
-        "be_blurb": "",
+        "be_blurb": "Make sure to visit the Belgian room upstairs",
         "google_blurb": "Tavern with long beer list & bar food",
-        "google_description": "Casual pub grub like fish 'n' chips is served at this beer-focused tavern with upstairs Belgian Bar.",
         "google_maps_web_url": "https://www.google.com/maps?q=Brick%20Store%20Pub%2C%20125%20E%20Court%20Square%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJf_XS6z0H9YgRQsA29ddjvK4",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJf_XS6z0H9YgRQsA29ddjvK4"
     },
     {
         "id": "recTEz38HrD2hD8rU",
@@ -200,12 +190,10 @@
         "website_title": "thisisbrickandmortar.com",
         "website_url": "http://www.thisisbrickandmortar.com/",
         "lat_long": "33.78591,-84.41236049999999",
-        "be_blurb": "",
+        "be_blurb": "Hip antique shop",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Brick%2BMortar%2C%201170%20Howell%20Mill%20Rd%20%23106%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJdUSsCuwE9YgRtU-Nr64p0l4",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJdUSsCuwE9YgRtU-Nr64p0l4"
     },
     {
         "id": "rec2kJ14qqbVPuCuj",
@@ -218,10 +206,8 @@
         "lat_long": "33.869862999999995,-84.38082299999999",
         "be_blurb": "",
         "google_blurb": "Trendy & relaxed spot for Southern meals",
-        "google_description": "Casual restaurant serving up locally sourced Southern breakfast & lunch fare made from scratch.",
         "google_maps_web_url": "https://www.google.com/maps?q=Buttermilk%20Kitchen%2C%204225%20Roswell%20Rd%20NE%2C%20Atlanta%2C%20GA%2030342",
-        "google_place_id": "ChIJTWZNURMP9YgRKC9q5kJ6GYs",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJTWZNURMP9YgRKC9q5kJ6GYs"
     },
     {
         "id": "recfEdfXfa3gzMpcI",
@@ -232,28 +218,24 @@
         "website_title": "camicakes.com",
         "website_url": "http://camicakes.com/",
         "lat_long": "33.8147696,-84.39107369999999",
-        "be_blurb": "",
+        "be_blurb": "You know, for when you want to go into a sugar coma!",
         "google_blurb": "Gourmet cupcakes meet organic ice cream",
-        "google_description": "Whimsical bakery for cupcakes in an array of flavor-frosting combinations, plus organic ice cream.",
         "google_maps_web_url": "https://www.google.com/maps?q=CamiCakes%20Cupcakes%2C%202221%20Peachtree%20Rd%20NW%20B%2C%20Atlanta%2C%20GA%2030309",
-        "google_place_id": "ChIJx1KaDqYF9YgRd1fXQwxO0vs",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJx1KaDqYF9YgRd1fXQwxO0vs"
     },
     {
         "id": "rec9MNc45avNEufxf",
-        "title": "Chai Pani Decatur",
-        "subtitle": "",
+        "title": "Chai Pani",
+        "subtitle": "Decatur",
         "address": "406 W Ponce de Leon Ave\nDecatur, GA 30030",
         "phone": "(404) 378-4030",
         "website_title": "chaipanidecatur.com",
         "website_url": "http://www.chaipanidecatur.com/",
         "lat_long": "33.775363,-84.302717",
-        "be_blurb": "",
+        "be_blurb": "Maybe not the most authentic but it's always so flavorful; try the okra and Sloppy Jai!",
         "google_blurb": "Hip, bright spot for Indian street eats",
-        "google_description": "Indian street snacks, platters, lassis & draft beers in a casual, colorful space with a hip vibe.",
         "google_maps_web_url": "https://www.google.com/maps?q=Chai%20Pani%20Decatur%2C%20406%20W%20Ponce%20de%20Leon%20Ave%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJc_8ytCIH9YgRQ10A6FxObLc",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJc_8ytCIH9YgRQ10A6FxObLc"
     },
     {
         "id": "reckV3H1WWOh8fY6x",
@@ -266,10 +248,8 @@
         "lat_long": "33.753890999999996,-84.371021",
         "be_blurb": "",
         "google_blurb": "Hip coffeehouse & clothing retailer",
-        "google_description": "Industrial-style locale with a hangout for choice coffee, plus a cool men's & women's apparel shop.",
         "google_maps_web_url": "https://www.google.com/maps?q=Chrome%20Yellow%20Trading%20Co.%2C%20501%20Edgewood%20Ave%20SE%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJ-yzpL4wF9YgR4gopjocMzl4",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ-yzpL4wF9YgR4gopjocMzl4"
     },
     {
         "id": "reccYY0paPRexeC96",
@@ -280,12 +260,10 @@
         "website_title": "citizensupply.com",
         "website_url": "http://www.citizensupply.com/",
         "lat_long": "33.772942,-84.365214",
-        "be_blurb": "",
+        "be_blurb": "Shop featuring local artisans",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Citizen%20Supply%2C%20675%20Ponce%20De%20Leon%20Ave%2C%20Suite%20NW%20208%2C%20Atlanta%2C%20GA%2030308",
-        "google_place_id": "ChIJNYEAoxAE9YgRO0NfvwBXc5U",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJNYEAoxAE9YgRO0NfvwBXc5U"
     },
     {
         "id": "recOQmaBJ76V8kvDG",
@@ -298,10 +276,8 @@
         "lat_long": "33.7652334,-84.3498627",
         "be_blurb": "",
         "google_blurb": "Hip specialist for new & used music",
-        "google_description": "Relaxed new & used music shop including hard-to-find recordings, plus comic books & music magazines.",
         "google_maps_web_url": "https://www.google.com/maps?q=Criminal%20Records%2C%201154%20Euclid%20Ave%20NE%20A%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJPQAPJ6kG9YgRQiwkPGsPuuw",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJPQAPJ6kG9YgRQiwkPGsPuuw"
     },
     {
         "id": "recogysp4zUl0vsNS",
@@ -314,10 +290,8 @@
         "lat_long": "33.8378768,-84.3103454",
         "be_blurb": "",
         "google_blurb": "Traditional fare in a laid-back setting",
-        "google_description": "Popular Ethiopian spot offering a variety of exotic dishes, including ample vegetarian options.",
         "google_maps_web_url": "https://www.google.com/maps?q=Desta%20Ethiopian%20Kitchen%2C%203086%20Briarcliff%20Rd%20NE%2C%20Atlanta%2C%20GA%2030329",
-        "google_place_id": "ChIJBfnCTtMH9YgRl4XWOkEDgbM",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJBfnCTtMH9YgRl4XWOkEDgbM"
     },
     {
         "id": "rec8lskcRR7hU5kFb",
@@ -328,12 +302,10 @@
         "website_title": "drbombays.com",
         "website_url": "http://www.drbombays.com/",
         "lat_long": "33.764724,-84.33359639999999",
-        "be_blurb": "",
+        "be_blurb": "Make a reservation for high tea",
         "google_blurb": "Quirky coffeehouse with living room vibe",
-        "google_description": "Cozy, offbeat cafe serves coffee, pastries & even high tea in a homey space filled with books.",
         "google_maps_web_url": "https://www.google.com/maps?q=Dr.%20Bombay's%20Underwater%20Tea%20Party%2C%201645%20McLendon%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJyTfS1rcG9YgRKYKXN252C_o",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJyTfS1rcG9YgRKYKXN252C_o"
     },
     {
         "id": "recbU4uZvnhd7Wiw7",
@@ -346,10 +318,8 @@
         "lat_long": "33.753908599999995,-84.3887436",
         "be_blurb": "",
         "google_blurb": "Chic hangout for coffee & baked goods",
-        "google_description": "Coffee house featuring hot drinks, baked goods & art events in a chic, contemporary space.",
         "google_maps_web_url": "https://www.google.com/maps?q=Ebrik%20Coffee%20Room%2C%2022%20Park%20Pl%20SE%2C%20Atlanta%2C%20GA%2030303",
-        "google_place_id": "ChIJfXU3jIYD9YgRUhx1xgyKRhU",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJfXU3jIYD9YgRUhx1xgyKRhU"
     },
     {
         "id": "rec09AlPHOFEvJLX9",
@@ -360,17 +330,15 @@
         "website_title": "empirestatesouth.com",
         "website_url": "http://www.empirestatesouth.com/",
         "lat_long": "33.7810793,-84.3836097",
-        "be_blurb": "",
+        "be_blurb": "They also have a cute coffee shop inside",
         "google_blurb": "Eatery known for high-end Southern fare",
-        "google_description": "Hugh Acheson presides at this upmarket Southern eatery where guests play bocce ball on the patio.",
         "google_maps_web_url": "https://www.google.com/maps?q=Empire%20State%20South%2C%20999%20Peachtree%20St%20NW%20%23140%2C%20Atlanta%2C%20GA%2030309",
-        "google_place_id": "ChIJk1JQhkIE9YgRszI7YFGNgtQ",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJk1JQhkIE9YgRszI7YFGNgtQ"
     },
     {
         "id": "rec74pW5h0e9Ij2lg",
-        "title": "Farm Burger Decatur",
-        "subtitle": "",
+        "title": "Farm Burger",
+        "subtitle": "Decatur",
         "address": "410B W Ponce De Leon Ave\nDecatur, GA 30030",
         "phone": "(404) 378-5077",
         "website_title": "farmburger.com",
@@ -378,10 +346,8 @@
         "lat_long": "33.7754262,-84.3029152",
         "be_blurb": "",
         "google_blurb": "Counter-serve spot for grass-fed burgers",
-        "google_description": "Casual-chic spot has counter service for grass-fed beef burgers, fries, veggie options, beer & wine.",
         "google_maps_web_url": "https://www.google.com/maps?q=Farm%20Burger%20Decatur%2C%20410B%20W%20Ponce%20De%20Leon%20Ave%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJx4M1wCIH9YgRCSW1jsZk414",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJx4M1wCIH9YgRCSW1jsZk414"
     },
     {
         "id": "recgT3XnO6Y0gd74F",
@@ -394,10 +360,8 @@
         "lat_long": "33.761066,-84.347476",
         "be_blurb": "",
         "google_blurb": "Laid-back spot for slow-roast BBQ",
-        "google_description": "Texan brothers' slow-roast ribs, pulled pork & Southern sides in an informal space with a patio.",
         "google_maps_web_url": "https://www.google.com/maps?q=Fox%20Bros.%20Bar-B-Q%2C%201238%20DeKalb%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJPaAgP6wG9YgRGRcSsxETyjE",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJPaAgP6wG9YgRGRcSsxETyjE"
     },
     {
         "id": "reczFW7Hu0HyaZ8wU",
@@ -408,28 +372,10 @@
         "website_title": "fredsmeatandbread.com",
         "website_url": "http://www.fredsmeatandbread.com/",
         "lat_long": "33.756962,-84.36394609999999",
-        "be_blurb": "",
+        "be_blurb": "Inside Krog Street Market; the pimento cheese is pretty hard to beat",
         "google_blurb": "Cozy spot for globally fueled sandwiches",
-        "google_description": "Small eatery offers sandwiches inspired from international classics from Spain & Vietnam to Philly.",
         "google_maps_web_url": "https://www.google.com/maps?q=Fred's%20Meat%20%26%20Bread%2C%2099%20Krog%20St%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJ8yvKJPgD9YgRzVBbZNssGU0",
-        "list_list": "Atlanta"
-    },
-    {
-        "id": "recxDXvKJ8BnaEs9c",
-        "title": "Gateway Trail",
-        "subtitle": "",
-        "address": "Atlanta, GA",
-        "phone": "",
-        "website_title": "",
-        "website_url": "",
-        "lat_long": "33.768929899999996,-84.3628655",
-        "be_blurb": "",
-        "google_blurb": "",
-        "google_description": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=Gateway%20Trail%2C%20Atlanta%2C%20GA",
-        "google_place_id": "ChIJkxiQzhoE9YgRd9cV7Q8m9JU",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ8yvKJPgD9YgRzVBbZNssGU0"
     },
     {
         "id": "rec0hch8vPhtTuybR",
@@ -442,26 +388,22 @@
         "lat_long": "33.7728503,-84.29535609999999",
         "be_blurb": "",
         "google_blurb": "Chic boutique for candy, pecans & gifts",
-        "google_description": "Stylish store offering pecans, candies & gift tins, with a lounge & party room available.",
         "google_maps_web_url": "https://www.google.com/maps?q=Greene's%20Fine%20Foods%2C%20141%20E%20Trinity%20Pl%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJUZ1MkT4H9YgRfKAYzZCgk3g",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJUZ1MkT4H9YgRfKAYzZCgk3g"
     },
     {
         "id": "reczM9uUvpGNKOuSN",
         "title": "Highland Bakery",
-        "subtitle": "",
+        "subtitle": "Inman Park",
         "address": "655 Highland Ave NE\nAtlanta, GA 30312",
         "phone": "(404) 586-0772",
         "website_title": "highlandbakery.com",
         "website_url": "http://highlandbakery.com/",
         "lat_long": "33.7612315,-84.36583449999999",
-        "be_blurb": "",
+        "be_blurb": "Their sweet tea is the best; super unique and so delicious!",
         "google_blurb": "Southern-flavored brunch fare & pastries",
-        "google_description": "Southern-style cafe & bakery offering all-day breakfast, salads & sandwiches, plus fresh pastries.",
         "google_maps_web_url": "https://www.google.com/maps?q=Highland%20Bakery%2C%20655%20Highland%20Ave%20NE%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJ8VK57AgE9YgRFI9K_PR-HrM",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ8VK57AgE9YgRFI9K_PR-HrM"
     },
     {
         "id": "recCiUYppdSo0VFBt",
@@ -472,12 +414,10 @@
         "website_title": "highlandrowantiques.com",
         "website_url": "http://highlandrowantiques.com/",
         "lat_long": "33.7716077,-84.35278249999999",
-        "be_blurb": "",
+        "be_blurb": "There's so much more downstairs!",
         "google_blurb": "Dealer for vintage furnishings & decor",
-        "google_description": "Specializing in midcentury modern pieces, this shop carries furniture, art & lighting fixtures.",
         "google_maps_web_url": "https://www.google.com/maps?q=Highland%20Row%20Antiques%2C%20628%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJkUaJEacG9YgRUzFWmcstkGM",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJkUaJEacG9YgRUzFWmcstkGM"
     },
     {
         "id": "recVIJjq5qIwUD2gC",
@@ -490,10 +430,8 @@
         "lat_long": "33.7694043,-84.3647968",
         "be_blurb": "",
         "google_blurb": "Park with splash fountain & skate park",
-        "google_description": "A 17-acre park with a splash fountain, skate park & amphitheater, adjacent to the Atlanta Beltline.",
         "google_maps_web_url": "https://www.google.com/maps?q=Historic%20Fourth%20Ward%20Park%2C%20680%20Dallas%20St%20NE%2C%20Atlanta%2C%20GA%2030308",
-        "google_place_id": "ChIJZSnz-A8E9YgRPfcVx8n1Pxk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJZSnz-A8E9YgRPfcVx8n1Pxk"
     },
     {
         "id": "rectu8T2XskUOYh71",
@@ -506,10 +444,8 @@
         "lat_long": "33.8157669,-84.3903581",
         "be_blurb": "",
         "google_blurb": "Stylish gastropub with vintage vibe",
-        "google_description": "Modern gastropub with new takes on vintage eats such as deviled eggs, plus custom cocktails.",
         "google_maps_web_url": "https://www.google.com/maps?q=Holeman%20and%20Finch%20Public%20House%2C%202277%20Peachtree%20Road%20Northwest%2C%20Atlanta%2C%20GA%2030309",
-        "google_place_id": "ChIJ3ah6xKUF9YgR3Vw6bx3elhM",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ3ah6xKUF9YgR3Vw6bx3elhM"
     },
     {
         "id": "recV7Hy0bN17NyAYD",
@@ -522,14 +458,12 @@
         "lat_long": "33.740317,-84.34463219999999",
         "be_blurb": "",
         "google_blurb": "Mexican, Central & South American fare",
-        "google_description": "Taqueria uses sustainable local ingredients in creative Mexican, Ecuadorian & South American food.",
         "google_maps_web_url": "https://www.google.com/maps?q=Holy%20Taco%2C%201314%20Glenwood%20Ave%20SE%2C%20Atlanta%2C%20GA%2030316",
-        "google_place_id": "ChIJXW0GW1sB9YgRAg8Pv7ekF-g",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJXW0GW1sB9YgRAg8Pv7ekF-g"
     },
     {
         "id": "rec3cEINbFa1fJnqH",
-        "title": "Home grown GA Restaurant",
+        "title": "Home grown",
         "subtitle": "",
         "address": "968 Memorial Dr SE\nAtlanta, GA 30316",
         "phone": "(404) 222-0455",
@@ -538,10 +472,22 @@
         "lat_long": "33.7466838,-84.3558784",
         "be_blurb": "",
         "google_blurb": "Retro country-diner with a Southern menu",
-        "google_description": "Laid-back eatery serving locally sourced breakfast & Southern fare in a retro country-diner setting.",
         "google_maps_web_url": "https://www.google.com/maps?q=Home%20grown%20GA%20Restaurant%2C%20968%20Memorial%20Dr%20SE%2C%20Atlanta%2C%20GA%2030316",
-        "google_place_id": "ChIJd-s4Ov0D9YgRKT-88JSzJ6s",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJd-s4Ov0D9YgRKT-88JSzJ6s"
+    },
+    {
+        "id": "recdE8V6JLO2M1WnR",
+        "title": "Hop City Craft Beer & Wine",
+        "subtitle": "",
+        "address": "99 Krog St NE Suite D\nAtlanta, GA 30307",
+        "phone": "(470) 355-2534",
+        "website_title": "hopcitybeer.com",
+        "website_url": "http://www.hopcitybeer.com/",
+        "lat_long": "33.7571089,-84.36384",
+        "be_blurb": "⨳BE: Excellent bottle shop and bar serving the Krog Street food hall",
+        "google_blurb": "",
+        "google_maps_web_url": "https://www.google.com/maps?q=Hop%20City%20Craft%20Beer%20%26%20Wine%2C%2099%20Krog%20St%20NE%20Suite%20D%2C%20Atlanta%2C%20GA%2030307",
+        "google_place_id": "ChIJ_RkHPPgD9YgREzvtswOzUW8"
     },
     {
         "id": "recaKfiZJYOezLLDR",
@@ -552,12 +498,10 @@
         "website_title": "jacksatlanta.com",
         "website_url": "http://jacksatlanta.com/",
         "lat_long": "33.7614739,-84.3651588",
-        "be_blurb": "",
+        "be_blurb": "The mac 'n cheese pizza is pretty darn good!",
         "google_blurb": "Roadhouse for pepperoni & pilsner",
-        "google_description": "A diverse crowd washes down pizza, wings & sandwiches with beer & liquor in a hip dive bar setting.",
         "google_maps_web_url": "https://www.google.com/maps?q=Jack's%20Pizza%20%26%20Wings%2C%20676%20Highland%20Ave%20NE%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJy-p0mQgE9YgRIcGy_6q5xTc",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJy-p0mQgE9YgRIcGy_6q5xTc"
     },
     {
         "id": "recPaavzpFDe1TGKz",
@@ -570,15 +514,41 @@
         "lat_long": "33.7865529,-84.4124312",
         "be_blurb": "",
         "google_blurb": "Gourmet Southern eats in stylish space",
-        "google_description": "Updated Southern fare in hip space with late-night live music, plus upstairs bar with skyline view.",
         "google_maps_web_url": "https://www.google.com/maps?q=JCT.%20Kitchen%20%26%20Bar%2C%201198%20Howell%20Mill%20Rd%20%2318%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJqV638esE9YgRFI3BWXG1vUo",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJqV638esE9YgRFI3BWXG1vUo"
+    },
+    {
+        "id": "recPIsFrDcztSkUXz",
+        "title": "Jeni's Splendid Ice Creams",
+        "subtitle": "West Midtown",
+        "address": "1198 Howell Mill Rd\nAtlanta, GA 30318",
+        "phone": "(404) 355-6050",
+        "website_title": "jenis.com",
+        "website_url": "http://jenis.com/scoop-shops/jenis-westside-provisions/",
+        "lat_long": "33.786845299999996,-84.41220899999999",
+        "be_blurb": "",
+        "google_blurb": "Frozen treats in inventive flavors",
+        "google_maps_web_url": "https://www.google.com/maps?q=Jeni's%20Splendid%20Ice%20Creams%2C%201198%20Howell%20Mill%20Rd%2C%20Atlanta%2C%20GA%2030318",
+        "google_place_id": "ChIJ8-BN8OsE9YgRFW2swC6EPCc"
+    },
+    {
+        "id": "recKBxzyaodL0yDUy",
+        "title": "Jeni's Splendid Ice Creams",
+        "subtitle": "Krog Street",
+        "address": "99 Krog St NE\nAtlanta, GA 30307",
+        "phone": "(470) 891-8105",
+        "website_title": "jenis.com",
+        "website_url": "http://www.jenis.com/",
+        "lat_long": "33.756471999999995,-84.3638849",
+        "be_blurb": "",
+        "google_blurb": "Frozen treats in inventive flavors",
+        "google_maps_web_url": "https://www.google.com/maps?q=Jeni's%20Splendid%20Ice%20Creams%2C%2099%20Krog%20St%20NE%2C%20Atlanta%2C%20GA%2030307",
+        "google_place_id": "ChIJ_RkHPPgD9YgRX699UeOjQhg"
     },
     {
         "id": "recgvRPhIrZcAA96J",
         "title": "Jeni's Splendid Ice Creams",
-        "subtitle": "",
+        "subtitle": "Decatur",
         "address": "545 N McDonough St\nDecatur, GA 30030",
         "phone": "(470) 891-8095",
         "website_title": "jenis.com",
@@ -586,10 +556,8 @@
         "lat_long": "33.7743997,-84.2962794",
         "be_blurb": "",
         "google_blurb": "Frozen treats in inventive flavors",
-        "google_description": "Chain scooping creative flavors of ice cream & frozen yogurt made from local ingredients.",
         "google_maps_web_url": "https://www.google.com/maps?q=Jeni's%20Splendid%20Ice%20Creams%2C%20545%20N%20McDonough%20St%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJ35bk1z0H9YgRgDZbJE8gcko",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ35bk1z0H9YgRgDZbJE8gcko"
     },
     {
         "id": "recLd8U7VgqyUDnIb",
@@ -602,10 +570,8 @@
         "lat_long": "33.7541508,-84.3736627",
         "be_blurb": "",
         "google_blurb": "Lounge offering pinball & big burgers",
-        "google_description": "Casual bar boasting arcade games & pinball & dishing up jumbo burgers & reimagined bar bites.",
         "google_maps_web_url": "https://www.google.com/maps?q=Joystick%20Gamebar%2C%20427%20Edgewood%20Ave%20SE%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJHwq_6PQD9YgRaS_OmcG1JSY",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJHwq_6PQD9YgRaS_OmcG1JSY"
     },
     {
         "id": "reclmTpUeFGXldJis",
@@ -618,10 +584,8 @@
         "lat_long": "33.7580417,-84.3621426",
         "be_blurb": "",
         "google_blurb": "Hungarian-style crêpes in historic digs",
-        "google_description": "Circa-1901 house serving Hungarian crêpes made from family recipes & loaded with local fruit.",
         "google_maps_web_url": "https://www.google.com/maps?q=Julianna's%20Coffee%20%26%20Crepes%2C%20775%20Lake%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJEUwvnQcE9YgR3rY87dgm2Jw",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJEUwvnQcE9YgR3rY87dgm2Jw"
     },
     {
         "id": "rec6PrZ5nZ1DLHR18",
@@ -632,12 +596,10 @@
         "website_title": "kingofpops.com",
         "website_url": "http://kingofpops.com/",
         "lat_long": "33.763779,-84.358858",
-        "be_blurb": "",
+        "be_blurb": "King of Pops is also all over Atlanta with a cart and rainbow umbrella",
         "google_blurb": "Window-service popsicle spot",
-        "google_description": "Fruit- & dairy-based pops at this walk-up spot come in flavors such as coconut latte & pear vanilla.",
         "google_maps_web_url": "https://www.google.com/maps?q=King%20of%20Pops%20Window%2C%20337%20Elizabeth%20St%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJTVoc8gME9YgRvd1EB1Pb3Kg",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJTVoc8gME9YgRvd1EB1Pb3Kg"
     },
     {
         "id": "reclsZgMgg0Vb51CN",
@@ -650,26 +612,22 @@
         "lat_long": "33.756233099999996,-84.364481",
         "be_blurb": "",
         "google_blurb": "Wine bar with Spanish-style small plates",
-        "google_description": "Stylish wine bar with cypress wood walls & communal tables, plus Spanish-style small plates & wines.",
         "google_maps_web_url": "https://www.google.com/maps?q=Krog%20Bar%2C%20112%20Krog%20St%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJQe8nLPgD9YgRh456GtqNJYU",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJQe8nLPgD9YgRh456GtqNJYU"
     },
     {
         "id": "rece341YiGXvvr4Nb",
         "title": "Krog Street Market",
         "subtitle": "",
-        "address": "99 Krog St\nAtlanta, GA 30307",
+        "address": "99 Krog St NE\nAtlanta, GA 30307",
         "phone": "(770) 434-2400",
         "website_title": "krogstreetmarket.com",
         "website_url": "http://www.krogstreetmarket.com/",
         "lat_long": "33.7567673,-84.3640337",
-        "be_blurb": "",
+        "be_blurb": "Market with a wide variety of eateries, excellent craft beer bar and shops",
         "google_blurb": "",
-        "google_description": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=Krog%20Street%20Market%2C%2099%20Krog%20St%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJ_RkHPPgD9YgR-6pzvoBtxpM",
-        "list_list": "Atlanta"
+        "google_maps_web_url": "https://www.google.com/maps?q=Krog%20Street%20Market%2C%2099%20Krog%20St%20NE%2C%20Atlanta%2C%20GA%2030307",
+        "google_place_id": "ChIJ_RkHPPgD9YgR-6pzvoBtxpM"
     },
     {
         "id": "recCsDxdJftnAU8Tl",
@@ -682,15 +640,13 @@
         "lat_long": "33.782339,-84.273923",
         "be_blurb": "",
         "google_blurb": "Vintage & kitschy home decor shop",
-        "google_description": "Kitschy antique shop showcasing folk art, midcentury & retro home collectibles & eclectic pieces.",
         "google_maps_web_url": "https://www.google.com/maps?q=Kudzu%20Antiques%20%2B%20Modern%2C%202928%20E%20Ponce%20de%20Leon%20Ave%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJVXgYwGMH9YgR_hCpA6bQ3Ck",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJVXgYwGMH9YgR_hCpA6bQ3Ck"
     },
     {
         "id": "recQNxzRypued1e2C",
         "title": "La Fonda Latina",
-        "subtitle": "",
+        "subtitle": "West Midtown",
         "address": "1025 Howell Mill Rd NW\nAtlanta, GA 30318",
         "phone": "(404) 249-2272",
         "website_title": "fellinisatlanta.com",
@@ -698,10 +654,36 @@
         "lat_long": "33.7828361,-84.4113951",
         "be_blurb": "",
         "google_blurb": "Casual Pan-Latin faves & a lively scene",
-        "google_description": "Bustling hangout with a patio serving paella, Cuban sandwiches, Mexican standards & margaritas.",
         "google_maps_web_url": "https://www.google.com/maps?q=La%20Fonda%20Latina%2C%201025%20Howell%20Mill%20Rd%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJo79Xu-wE9YgRrT6vFFTLOdY",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJo79Xu-wE9YgRrT6vFFTLOdY"
+    },
+    {
+        "id": "rec5oUZ4VZ0D1dyp7",
+        "title": "La Fonda Latina",
+        "subtitle": "Candler Park",
+        "address": "1639 McLendon Ave NE\nAtlanta, GA 30307",
+        "phone": "(404) 378-5200",
+        "website_title": "fellinisatlanta.com",
+        "website_url": "http://www.fellinisatlanta.com/",
+        "lat_long": "33.7646879,-84.33380389999999",
+        "be_blurb": "",
+        "google_blurb": "Pan-Latin joint for quick eats",
+        "google_maps_web_url": "https://www.google.com/maps?q=La%20Fonda%20Latina%2C%201639%20McLendon%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
+        "google_place_id": "ChIJzRwR0rcG9YgRv4Cxc7z4Ocs"
+    },
+    {
+        "id": "recQv49zVRKW8SSoe",
+        "title": "La Fonda Latina",
+        "subtitle": "Poncey-Highland",
+        "address": "923 Ponce De Leon Ave NE\nAtlanta, GA 30306",
+        "phone": "(404) 607-0665",
+        "website_title": "fellinisatlanta.com",
+        "website_url": "http://www.fellinisatlanta.com/lafonda.html",
+        "lat_long": "33.773499799999996,-84.357113",
+        "be_blurb": "",
+        "google_blurb": "Quick & casual Pan-Latin cuisine",
+        "google_maps_web_url": "https://www.google.com/maps?q=La%20Fonda%20Latina%2C%20923%20Ponce%20De%20Leon%20Ave%20NE%2C%20Atlanta%2C%20GA%2030306",
+        "google_place_id": "ChIJ5bL8KxwE9YgREJo0_kc5rOc"
     },
     {
         "id": "recjR8w03r3X10dcI",
@@ -714,10 +696,8 @@
         "lat_long": "33.759655099999996,-84.364541",
         "be_blurb": "",
         "google_blurb": "Campfire-themed New American bar/eatery",
-        "google_description": "Hip New American bar & restaurant offering a campfire-&-lodge theme, screened porches & local beers.",
         "google_maps_web_url": "https://www.google.com/maps?q=Ladybird%20Grove%20%26%20Mess%20Hall%2C%20684%20John%20Wesley%20Dobbs%20Ave%20NE%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJpwdZ0AcE9YgR4Y8mHDdrygo",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJpwdZ0AcE9YgR4Y8mHDdrygo"
     },
     {
         "id": "recmd3G88lv82WwNP",
@@ -730,10 +710,8 @@
         "lat_long": "33.7782406,-84.4089607",
         "be_blurb": "",
         "google_blurb": "Vietnamese food in classy environs",
-        "google_description": "Comfortable yet classy restaurant focusing on bold Vietnamese food, plus family-style plates.",
         "google_maps_web_url": "https://www.google.com/maps?q=Le%20Fat%2C%20935%20Marietta%20St%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJt-EjUpIE9YgRTb3UlMEeXc4",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJt-EjUpIE9YgRTb3UlMEeXc4"
     },
     {
         "id": "recKvJ2L0e5QIU2KR",
@@ -744,12 +722,10 @@
         "website_title": "leonsfullservice.com",
         "website_url": "http://leonsfullservice.com/",
         "lat_long": "33.7753818,-84.2951157",
-        "be_blurb": "",
+        "be_blurb": "Try the lug nuts with one of their great cocktails",
         "google_blurb": "Inventive New American eatery & bar",
-        "google_description": "Inspired modern eatery in ex gas station offers New American fare & cocktails, plus a bocce court.",
         "google_maps_web_url": "https://www.google.com/maps?q=Leon's%20Full%20Service%2C%20131%20E%20Ponce%20de%20Leon%20Ave%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJKX3oFT4H9YgRXhV5sQXbeY8",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJKX3oFT4H9YgRXhV5sQXbeY8"
     },
     {
         "id": "recdeldxtRUG3V3bL",
@@ -762,10 +738,8 @@
         "lat_long": "33.77536,-84.295789",
         "be_blurb": "",
         "google_blurb": "Independent children's bookstore",
-        "google_description": "Big independent children's bookstore featuring multiple reading areas & regular kids' story hours.",
         "google_maps_web_url": "https://www.google.com/maps?q=Little%20Shop%20of%20Stories%2C%20133%20E%20Court%20Square%20%23%20A%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJ9ZsqDD4H9YgRArMuoD42EZk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ9ZsqDD4H9YgRArMuoD42EZk"
     },
     {
         "id": "recoOfs0giVhwZ2Q9",
@@ -778,10 +752,8 @@
         "lat_long": "33.786847,-84.412026",
         "be_blurb": "",
         "google_blurb": "Foodie market & cafe with high-end goods",
-        "google_description": "Individual markets for top-shelf meat, cheese & specialty items, with tables for on-site lunching.",
         "google_maps_web_url": "https://www.google.com/maps?q=Little%20Star%20Provisions%2C%201198%20Howell%20Mill%20Rd%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJeYpCfesE9YgRywXYhJZNmTY",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJeYpCfesE9YgRywXYhJZNmTY"
     },
     {
         "id": "recFrn5BslYnC1OYH",
@@ -794,10 +766,8 @@
         "lat_long": "33.7728409,-84.37988039999999",
         "be_blurb": "",
         "google_blurb": "Iconic spot for Southern fare classics",
-        "google_description": "This 1945-era institution draws locals & tourists for Southern comfort food in a homey space.",
         "google_maps_web_url": "https://www.google.com/maps?q=Mary%20Mac's%20Tea%20Room%2C%20224%20Ponce%20De%20Leon%20Ave%20NE%2C%20Atlanta%2C%20GA%2030308",
-        "google_place_id": "ChIJgUolJWwE9YgRnxg5IduXOsg",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJgUolJWwE9YgRnxg5IduXOsg"
     },
     {
         "id": "recVbDVqqCoLxI5wN",
@@ -808,12 +778,10 @@
         "website_title": "cafemozartbakery.com",
         "website_url": "http://cafemozartbakery.com/",
         "lat_long": "33.8967883,-84.2809261",
-        "be_blurb": "",
+        "be_blurb": "Small Korean bakery, a nice change of pace from the city",
         "google_blurb": "Inviting spot for breads & sweet eats",
-        "google_description": "Cozy bakeshop showcasing breads, pastries, cakes, macarons & a variety of other confections.",
         "google_maps_web_url": "https://www.google.com/maps?q=Mozart%20Bakery%2C%205301%20Buford%20Hwy%20NE%2C%20Atlanta%2C%20GA%2030340",
-        "google_place_id": "ChIJ1w1o388J9YgRJQo8_sYxWyk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ1w1o388J9YgRJQo8_sYxWyk"
     },
     {
         "id": "reczUDfyU859ayOry",
@@ -824,28 +792,38 @@
         "website_title": "oaklandcemetery.com",
         "website_url": "http://www.oaklandcemetery.com/",
         "lat_long": "33.748588399999996,-84.3729865",
-        "be_blurb": "",
+        "be_blurb": "Although a graveyard, a lovely place for a stroll",
         "google_blurb": "Final resting place of famous Atlantans",
-        "google_description": "This historic 1850s cemetery is the burial site of Margaret Mitchell & other notable locals.",
         "google_maps_web_url": "https://www.google.com/maps?q=Oakland%20Cemetery%2C%20248%20Oakland%20Ave%20SE%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJy_0erfID9YgRoNIwtAfCiY4",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJy_0erfID9YgRoNIwtAfCiY4"
+    },
+    {
+        "id": "recTzJJNpx29z3QAc",
+        "title": "Octane",
+        "subtitle": "",
+        "address": "1009 West Marietta St NW\nAtlanta, GA 30318",
+        "phone": "(404) 815-9886",
+        "website_title": "octanecoffee.com",
+        "website_url": "http://www.octanecoffee.com/",
+        "lat_long": "33.7794023,-84.4102626",
+        "be_blurb": "",
+        "google_blurb": "Cafe housed in an industrial space",
+        "google_maps_web_url": "https://www.google.com/maps?q=Octane%2C%201009%20West%20Marietta%20St%20NW%2C%20Atlanta%2C%20GA%2030318",
+        "google_place_id": "ChIJibqUCJME9YgR4ych3D5KKzU"
     },
     {
         "id": "rect1EaLkzismdBys",
-        "title": "Panahar",
+        "title": "PANAHAR Bangladeshi Cuisine",
         "subtitle": "",
-        "address": "3375 Buford Hwy NE\nBrookhaven, GA 30329",
+        "address": "3375 Buford Hwy NE #1060\nAtlanta, GA 30329",
         "phone": "(404) 633-6655",
-        "website_title": "panaharbangladeshicuisine.com",
-        "website_url": "http://panaharbangladeshicuisine.com/",
+        "website_title": "panahar.com",
+        "website_url": "http://panahar.com/",
         "lat_long": "33.842597,-84.327237",
-        "be_blurb": "",
+        "be_blurb": "Go at lunch for a flavorful buffet",
         "google_blurb": "Bangladeshi cooking in strip-mall digs",
-        "google_description": "Bangladeshi fare, with many vegetarian options & lunch buffet, in simple, strip-mall setting. BYOB.",
-        "google_maps_web_url": "https://www.google.com/maps?q=Panahar%2C%203375%20Buford%20Hwy%20NE%2C%20Brookhaven%2C%20GA%2030329",
-        "google_place_id": "ChIJY_itJScG9YgReNlgxIdeVls",
-        "list_list": "Atlanta"
+        "google_maps_web_url": "https://www.google.com/maps?q=PANAHAR%20BANGLADESHI%20CUISINE%2C%203375%20Buford%20Hwy%20NE%20%231060%2C%20Atlanta%2C%20GA%2030329",
+        "google_place_id": "ChIJY_itJScG9YgReNlgxIdeVls"
     },
     {
         "id": "rec8MSzD5700M8Riq",
@@ -856,12 +834,10 @@
         "website_title": "paolosgelato.com",
         "website_url": "http://www.paolosgelato.com/",
         "lat_long": "33.7822698,-84.353747",
-        "be_blurb": "",
+        "be_blurb": "Cash only",
         "google_blurb": "Sweet treats in a small setting",
-        "google_description": "Compact treat shop dishing out authentic Italian gelato in dozens of creative flavors.",
         "google_maps_web_url": "https://www.google.com/maps?q=Paolo's%20Gelato%20Italiano%2C%201025%20Virginia%20Ave%20NE%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJyxCSLp4G9YgRvIIOspXONiA",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJyxCSLp4G9YgRvIIOspXONiA"
     },
     {
         "id": "recLpVVhUDFwFc1Uq",
@@ -874,26 +850,22 @@
         "lat_long": "33.773753,-84.3640003",
         "be_blurb": "",
         "google_blurb": "Eclectic market for vintage furnishings",
-        "google_description": "Eclectic mix of 30-plus curators, collectors & designers offering mostly vintage furniture & decor.",
         "google_maps_web_url": "https://www.google.com/maps?q=Paris%20on%20Ponce%2C%20716%20Ponce%20De%20Leon%20Pl%20NE%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJLQG2HRoE9YgRTAQMuMIG0fw",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJLQG2HRoE9YgRTAQMuMIG0fw"
     },
     {
         "id": "rec1Hovn2ndXTkwml",
         "title": "Piedmont Park",
         "subtitle": "",
-        "address": "1320 Monroe Dr NE\nAtlanta, GA 30306",
+        "address": "400 Park Dr NE\nAtlanta, GA 30306",
         "phone": "(404) 875-7275",
         "website_title": "piedmontpark.org",
         "website_url": "https://www.piedmontpark.org/venue-rentals/",
-        "lat_long": "33.7901379,-84.3696071",
-        "be_blurb": "",
+        "lat_long": "33.7883231,-84.3716838",
+        "be_blurb": "There seems to always be some festival going on, so check their schedule!",
         "google_blurb": "Park with sports & a farmers market",
-        "google_description": "Sprawling park featuring jogging paths, basketball courts, dog parks, a farmers' market & more.",
-        "google_maps_web_url": "https://www.google.com/maps?q=Piedmont%20Park%2C%201320%20Monroe%20Dr%20NE%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJGaxkUDkE9YgRDjUv9U7qrvM",
-        "list_list": "Atlanta"
+        "google_maps_web_url": "https://www.google.com/maps?q=Piedmont%20Park%2C%20400%20Park%20Dr%20NE%2C%20Atlanta%2C%20GA%2030306",
+        "google_place_id": "ChIJGaxkUDkE9YgRDjUv9U7qrvM"
     },
     {
         "id": "recjsgQF88AxL3Gj4",
@@ -906,10 +878,8 @@
         "lat_long": "33.7734567,-84.3530406",
         "be_blurb": "",
         "google_blurb": "Indie cinema features cult classics",
-        "google_description": "Independent movie theater showcases cult classics & midnight movies on Friday on the silver screen.",
         "google_maps_web_url": "https://www.google.com/maps?q=Plaza%20Theatre%2C%201049%20Ponce%20De%20Leon%20Ave%20NE%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJP47X-6MG9YgR-rV20HhVwVA",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJP47X-6MG9YgR-rV20HhVwVA"
     },
     {
         "id": "recgvnHR04OW2LSiO",
@@ -920,33 +890,15 @@
         "website_title": "poncecitymarket.com",
         "website_url": "http://www.poncecitymarket.com/",
         "lat_long": "33.7719459,-84.36652699999999",
-        "be_blurb": "",
+        "be_blurb": "Large, brick building (former Sears office) turned market with local and national shops, and a rooftop amusement park",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Ponce%20City%20Market%2C%20675%20Ponce%20De%20Leon%20Ave%20NE%2C%20Atlanta%2C%20GA%2030308",
-        "google_place_id": "ChIJTTv9ohAE9YgRgRWbbatrrsg",
-        "list_list": "Atlanta"
-    },
-    {
-        "id": "recXUXAbTq9HaTtbh",
-        "title": "Pratt-Pullman Yard",
-        "subtitle": "",
-        "address": "Rogers St NE\nAtlanta, GA 30317",
-        "phone": "",
-        "website_title": "",
-        "website_url": "",
-        "lat_long": "33.7574916,-84.3282381",
-        "be_blurb": "",
-        "google_blurb": "",
-        "google_description": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=Pratt-Pullman%20Yard%2C%20Rogers%20St%20NE%2C%20Atlanta%2C%20GA%2030317",
-        "google_place_id": "ChIJ27eCZMsG9YgRoXHhzKXblgc",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJTTv9ohAE9YgRgRWbbatrrsg"
     },
     {
         "id": "recIrkjGHQyWeHYjK",
-        "title": "Revelator Coffee Grant Park",
-        "subtitle": "",
+        "title": "Revelator Coffee",
+        "subtitle": "Grant Park",
         "address": "437 Memorial Dr SE A5\nAtlanta, GA 30312",
         "phone": "(404) 815-9886",
         "website_title": "revelatorcoffee.com",
@@ -954,26 +906,22 @@
         "lat_long": "33.7460934,-84.37283",
         "be_blurb": "",
         "google_blurb": "Coffee & cocktails in loft-chic digs",
-        "google_description": "Industrial-chic cafe serves a variety of espresso beverages, light bites & cocktails at night.",
         "google_maps_web_url": "https://www.google.com/maps?q=Revelator%20Coffee%20Grant%20Park%2C%20437%20Memorial%20Dr%20SE%20A5%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJh1TZCJME9YgRDkwk8NtDKlo",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJh1TZCJME9YgRDkwk8NtDKlo"
     },
     {
         "id": "recQnt2414wANyqMB",
         "title": "Revolution Doughnuts & Coffee",
         "subtitle": "",
-        "address": "908 W College Ave\nDecatur, GA 30030",
+        "address": "3506\n908 W College Ave\nDecatur, GA 30030",
         "phone": "(470) 428-2023",
         "website_title": "revolutiondoughnuts.com",
         "website_url": "http://www.revolutiondoughnuts.com/",
         "lat_long": "33.7654238,-84.30831789999999",
         "be_blurb": "",
         "google_blurb": "Buzzy donut shop with inventive flavors",
-        "google_description": "Spiffy shop turning out donuts in creative flavors like vanilla bean, carrot cake & caramel-bacon.",
-        "google_maps_web_url": "https://www.google.com/maps?q=Revolution%20Doughnuts%20%26%20Coffee%2C%20908%20W%20College%20Ave%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJMYhLmCgH9YgRrbujxM702W4",
-        "list_list": "Atlanta"
+        "google_maps_web_url": "https://www.google.com/maps?q=Revolution%20Doughnuts%20%26%20Coffee%2C%203506%2C%20908%20W%20College%20Ave%2C%20Decatur%2C%20GA%2030030",
+        "google_place_id": "ChIJMYhLmCgH9YgRrbujxM702W4"
     },
     {
         "id": "recVAtyiYxjKUW4v7",
@@ -986,42 +934,36 @@
         "lat_long": "33.7465435,-84.3736481",
         "be_blurb": "",
         "google_blurb": "Homey diner serving all-day breakfast",
-        "google_description": "Casual diner serves big portions of all-day breakfast including biscuits & rum-soaked French toast.",
         "google_maps_web_url": "https://www.google.com/maps?q=Ria's%20Bluebird%2C%20421%20Memorial%20Dr%20SE%2C%20Atlanta%2C%20GA%2030312",
-        "google_place_id": "ChIJVXmRYe0D9YgRUcLvzfYDDJw",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJVXmRYe0D9YgRUcLvzfYDDJw"
     },
     {
         "id": "rec8qR5CEUFBTnJlS",
         "title": "Richards Variety Store",
-        "subtitle": "",
+        "subtitle": "Midtown",
         "address": "931 Monroe Dr NE\nAtlanta, GA 30308",
         "phone": "(404) 879-9877",
         "website_title": "richardsvarietystore.com",
         "website_url": "http://www.richardsvarietystore.com/",
         "lat_long": "33.7799085,-84.3678971",
-        "be_blurb": "",
+        "be_blurb": "Shop full of random everyday and not-so-everyday items",
         "google_blurb": "Diverse array of toys & home products",
-        "google_description": "Destination shop where gag gifts & old-fashioned toys share space with home items & furniture,",
         "google_maps_web_url": "https://www.google.com/maps?q=Richards%20Variety%20Store%2C%20931%20Monroe%20Dr%20NE%2C%20Atlanta%2C%20GA%2030308",
-        "google_place_id": "ChIJ9VBzKBYE9YgRl87jPbhDwA8",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ9VBzKBYE9YgRl87jPbhDwA8"
     },
     {
         "id": "recwWKTMb4yLxoqZs",
         "title": "Richards Variety Store",
-        "subtitle": "",
-        "address": "2347 Peachtree Rd NE\nAtlanta, GA 30305",
+        "subtitle": "Peachtree Battle",
+        "address": "2347 Peachtree Rd\nAtlanta, GA 30305",
         "phone": "(404) 237-1412",
         "website_title": "richardsvarietystore.com",
         "website_url": "http://www.richardsvarietystore.com/",
         "lat_long": "33.819370899999996,-84.3865549",
-        "be_blurb": "",
+        "be_blurb": "Shop full of everyday and not-so-everyday items",
         "google_blurb": "Diverse array of novelty & home products",
-        "google_description": "Well-stocked outpost of a local emporium selling everything from books to gag gifts to kitchenware.",
-        "google_maps_web_url": "https://www.google.com/maps?q=Richards%20Variety%20Store%2C%202347%20Peachtree%20Rd%20NE%2C%20Atlanta%2C%20GA%2030305",
-        "google_place_id": "ChIJg4BYf6MF9YgR5EfqorHAMw0",
-        "list_list": "Atlanta"
+        "google_maps_web_url": "https://www.google.com/maps?q=Richards%20Variety%20Store%2C%202347%20Peachtree%20Rd%2C%20Atlanta%2C%20GA%2030305",
+        "google_place_id": "ChIJg4BYf6MF9YgR5EfqorHAMw0"
     },
     {
         "id": "recxClW8r78rpWZyz",
@@ -1032,33 +974,29 @@
         "website_title": "savannahbee.com",
         "website_url": "https://savannahbee.com/",
         "lat_long": "33.7852181,-84.41245339999999",
-        "be_blurb": "",
+        "be_blurb": "Honey in all forms weather for food, beauty products, or mead for drinking; do a taste-testing!",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Savannah%20Bee%20Company%2C%20%23A01%2C%201100%20Howell%20Mill%20Road%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJs5ADg-sE9YgRlJifo8w-H6Y",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJs5ADg-sE9YgRlJifo8w-H6Y"
     },
     {
         "id": "rec8bK7wJW5QfRmzL",
-        "title": "Scott Antique Markets, Atlanta",
+        "title": "Scott Antique Market",
         "subtitle": "",
         "address": "3650 Jonesboro Rd SE\nAtlanta, GA 30354",
         "phone": "(404) 361-2000",
         "website_title": "scottantiquemarket.com",
         "website_url": "http://www.scottantiquemarket.com/",
         "lat_long": "33.655830099999996,-84.3660788",
-        "be_blurb": "",
+        "be_blurb": "Sprawling over two large warehouses (with bus transportation) and outdoors, wear comfortable shoes and have a game plan!",
         "google_blurb": "Sprawling monthly indoor market",
-        "google_description": "Vast monthly market with vendors offering heirloom furniture & antiques, collectibles & knickknacks.",
         "google_maps_web_url": "https://www.google.com/maps?q=Scott%20Antique%20Markets%2C%20Atlanta%2C%203650%20Jonesboro%20Rd%20SE%2C%20Atlanta%2C%20GA%2030354",
-        "google_place_id": "ChIJS7ur-e799IgRGAHbaWnPuQk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJS7ur-e799IgRGAHbaWnPuQk"
     },
     {
         "id": "recPU6RSlVmv6GcjU",
         "title": "Six Feet Under Pub & Fish House",
-        "subtitle": "",
+        "subtitle": "West Midtown",
         "address": "685 11th St NW\nAtlanta, GA 30318",
         "phone": "(404) 810-0040",
         "website_title": "sixfeetunder.net",
@@ -1066,42 +1004,36 @@
         "lat_long": "33.7832481,-84.4097527",
         "be_blurb": "",
         "google_blurb": "Seafood, brews & skyline views",
-        "google_description": "Comfy, kitschy seafood spot with craft beers on tap & popular rooftop bar with skyline vistas.",
         "google_maps_web_url": "https://www.google.com/maps?q=Six%20Feet%20Under%20Pub%20%26%20Fish%20House%2C%20685%2011th%20St%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJMdAK3uwE9YgRK0P9zgnh2sA",
-        "list_list": "Atlanta"
-    },
-    {
-        "id": "recQin3hZ9tTjIOy8",
-        "title": "Souper Jenny",
-        "subtitle": "",
-        "address": "1082 Huff Rd NW\nAtlanta, GA 30318",
-        "phone": "(404) 603-9977",
-        "website_title": "souperjennyatl.com",
-        "website_url": "http://souperjennyatl.com/",
-        "lat_long": "33.788759999999996,-84.42291",
-        "be_blurb": "",
-        "google_blurb": "Counter-serve spot for soup & light fare",
-        "google_description": "Casual cafe featuring housemade soups (plus salads & other light bites) in a counter-serve setting.",
-        "google_maps_web_url": "https://www.google.com/maps?q=Souper%20Jenny%2C%201082%20Huff%20Rd%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJGyohD8QE9YgRPZA3T_s7lAk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJMdAK3uwE9YgRK0P9zgnh2sA"
     },
     {
         "id": "recG01jIlbrPy9dxj",
         "title": "Souper Jenny",
-        "subtitle": "",
+        "subtitle": "Buckhead",
         "address": "130 West Paces Ferry Rd NW\nAtlanta, GA 30305",
         "phone": "(404) 295-6761",
         "website_title": "souperjennyatl.com",
         "website_url": "http://www.souperjennyatl.com/",
         "lat_long": "33.8418504,-84.3857486",
-        "be_blurb": "",
+        "be_blurb": "Generous, yet healthy lunches that change daily",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Souper%20Jenny%2C%20130%20West%20Paces%20Ferry%20Rd%20NW%2C%20Atlanta%2C%20GA%2030305",
-        "google_place_id": "ChIJqYC4XIkF9YgR7m5ZHluAajA",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJqYC4XIkF9YgR7m5ZHluAajA"
+    },
+    {
+        "id": "recQin3hZ9tTjIOy8",
+        "title": "Souper Jenny",
+        "subtitle": "West Midtown",
+        "address": "1082 Huff Rd NW\nAtlanta, GA 30318",
+        "phone": "(404) 603-9977",
+        "website_title": "souperjennyatl.com",
+        "website_url": "http://souperjennyatl.com/",
+        "lat_long": "33.788759999999996,-84.42291",
+        "be_blurb": "Generous, yet healthy lunches that change daily",
+        "google_blurb": "Counter-serve spot for soup & light fare",
+        "google_maps_web_url": "https://www.google.com/maps?q=Souper%20Jenny%2C%201082%20Huff%20Rd%20NW%2C%20Atlanta%2C%20GA%2030318",
+        "google_place_id": "ChIJGyohD8QE9YgRPZA3T_s7lAk"
     },
     {
         "id": "recg7CJkVwlKAp6Nc",
@@ -1114,10 +1046,8 @@
         "lat_long": "33.7818784,-84.4049196",
         "be_blurb": "",
         "google_blurb": "Donuts in inventive flavor combinations",
-        "google_description": "Quaint shop doing donuts in a variety of adventurous flavors like maple-bacon-cheddar & red velvet.",
         "google_maps_web_url": "https://www.google.com/maps?q=Sublime%20Doughnuts%2C%20535%2010th%20St%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJC7ypNI0E9YgRhGJzdw1n5Q0",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJC7ypNI0E9YgRhGJzdw1n5Q0"
     },
     {
         "id": "rec20q5vtHpEavUXM",
@@ -1130,10 +1060,8 @@
         "lat_long": "33.764022,-84.316504",
         "be_blurb": "",
         "google_blurb": "American diner with all-day breakfast",
-        "google_description": "American diner with breakfast, lunch & dinner plus craft brews in a rustic, relaxed environment.",
         "google_maps_web_url": "https://www.google.com/maps?q=Sun%20in%20My%20Belly%2C%202161%20College%20Ave%20NE%2C%20Atlanta%2C%20GA%2030317",
-        "google_place_id": "ChIJDw45JNcG9YgRhmnAKVQ8sbQ",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJDw45JNcG9YgRhmnAKVQ8sbQ"
     },
     {
         "id": "recYfHzVISl2SBR2k",
@@ -1141,15 +1069,13 @@
         "subtitle": "",
         "address": "99 Krog St NE\nAtlanta, GA 30307",
         "phone": "(678) 791-1310",
-        "website_title": "supericaatl.com",
-        "website_url": "http://supericaatl.com/",
+        "website_title": "superica.com",
+        "website_url": "http://www.superica.com/krog-street/",
         "lat_long": "33.757031999999995,-84.3641813",
-        "be_blurb": "",
+        "be_blurb": "Inside Krog Street Market; make a reservation on weekends",
         "google_blurb": "Sleek spot for modernized Tex-Mex food",
-        "google_description": "Stylish \"Mex-Tex\" restaurant featuring reinvented Texas favorites such as puffy tacos & fajitas.",
         "google_maps_web_url": "https://www.google.com/maps?q=Superica%2C%2099%20Krog%20St%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJz8DZBfgD9YgR_02Yj4A9Jw4",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJz8DZBfgD9YgR_02Yj4A9Jw4"
     },
     {
         "id": "reciJ2kvsXuy1AyWL",
@@ -1162,10 +1088,8 @@
         "lat_long": "33.772302499999995,-84.35273509999999",
         "be_blurb": "",
         "google_blurb": "Down-home classics in a rustic-chic spot",
-        "google_description": "Nouveau-rustic outpost serving smoked meats & sides with eclectic touches, plus inventive cocktails.",
         "google_maps_web_url": "https://www.google.com/maps?q=Sweet%20Auburn%20BBQ%2C%20656%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJVQdsPqcG9YgRvrc83SIPnqY",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJVQdsPqcG9YgRvrc83SIPnqY"
     },
     {
         "id": "recBA49FV4JXg7MWA",
@@ -1178,10 +1102,8 @@
         "lat_long": "33.754092799999995,-84.37987679999999",
         "be_blurb": "",
         "google_blurb": "Collection of specialty-food vendors",
-        "google_description": "Indoor artisanal market with meat, produce, bakery & prepared-food stalls, plus dine-in tables.",
         "google_maps_web_url": "https://www.google.com/maps?q=Sweet%20Auburn%20Curb%20Market%2C%20209%20Edgewood%20Ave%20SE%2C%20Atlanta%2C%20GA%2030303",
-        "google_place_id": "ChIJPa8F3YsD9YgRpjPDbxOChoc",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJPa8F3YsD9YgRpjPDbxOChoc"
     },
     {
         "id": "recVpWskPbm1hzP1H",
@@ -1192,12 +1114,10 @@
         "website_title": "switchyards.com",
         "website_url": "http://www.switchyards.com/",
         "lat_long": "33.7586929,-84.3900851",
-        "be_blurb": "",
+        "be_blurb": "Co-working space with a favorite mural of mine outside: Atlanta Isn't Perfect",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Switchyards%20Downtown%20Club%2C%20151%20Ted%20Turner%20Dr%20NW%2C%20Atlanta%2C%20GA%2030303",
-        "google_place_id": "ChIJx4GuoHgE9YgRfhlTbsp6PNQ",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJx4GuoHgE9YgRfhlTbsp6PNQ"
     },
     {
         "id": "recZ2LQhYuw4N1nDp",
@@ -1205,15 +1125,13 @@
         "subtitle": "",
         "address": "818 Juniper St NE\nAtlanta, GA 30308",
         "phone": "(404) 532-1944",
-        "website_title": "mytakorea.com",
-        "website_url": "http://mytakorea.com/",
+        "website_title": "",
+        "website_url": "",
         "lat_long": "33.776894999999996,-84.38315899999999",
         "be_blurb": "",
         "google_blurb": "Mexican & Korean street-food eatery",
-        "google_description": "Lively taqueria with a year-round porch, mixing Mexican & Korean street eats, plus signature drinks.",
         "google_maps_web_url": "https://www.google.com/maps?q=Takorea%2C%20818%20Juniper%20St%20NE%2C%20Atlanta%2C%20GA%2030308",
-        "google_place_id": "ChIJyZiI4mgE9YgRUFBWZfATeVk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJyZiI4mgE9YgRUFBWZfATeVk"
     },
     {
         "id": "recqaCQAvhWx4rp1m",
@@ -1226,10 +1144,8 @@
         "lat_long": "33.7873808,-84.41293259999999",
         "be_blurb": "",
         "google_blurb": "Casual pick for soft tacos & enchiladas",
-        "google_description": "Local counter-serve chain offering a short menu of soft tacos & enchiladas in a relaxed space.",
         "google_maps_web_url": "https://www.google.com/maps?q=Taqueria%20Del%20Sol%2C%201200%20Howell%20Mill%20Rd%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJWQDTAOwE9YgRVkGvK0XATHo",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJWQDTAOwE9YgRVkGvK0XATHo"
     },
     {
         "id": "recA4MwvkEjNdE4Iz",
@@ -1242,10 +1158,8 @@
         "lat_long": "33.7814985,-84.4156603",
         "be_blurb": "",
         "google_blurb": "Former foundry with live music",
-        "google_description": "Foundry turned mid-sized music/events venue at King Plow Arts Center, with onsite bar/restaurant.",
         "google_maps_web_url": "https://www.google.com/maps?q=Terminal%20West%2C%20887%20West%20Marietta%20St%20NW%20C%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJ_wIBseoE9YgRyk7faFC6t1I",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ_wIBseoE9YgRyk7faFC6t1I"
     },
     {
         "id": "recm3o7SSWsL2eXrC",
@@ -1254,14 +1168,12 @@
         "address": "240 North Highland Avenue Northeast\nAtlanta, GA 30307",
         "phone": "(404) 681-4434",
         "website_title": "parishatl.com",
-        "website_url": "http://www.parishatl.com/",
+        "website_url": "http://www.parishatl.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
         "lat_long": "33.761852,-84.36036399999999",
-        "be_blurb": "",
+        "be_blurb": "I prefer the downstairs, especially when you're working",
         "google_blurb": "Market downstairs/Southern eats upstairs",
-        "google_description": "There's a food market & coffee bar downstairs & a Southern eatery upstairs in this former factory.",
         "google_maps_web_url": "https://www.google.com/maps?q=The%20Brasserie%20and%20Neighborhood%20Cafe%20at%20PARISH%2C%20240%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJR4ZfugYE9YgR-6UaBcvYHz0",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJR4ZfugYE9YgR-6UaBcvYHz0"
     },
     {
         "id": "recdqx7eZbQwuDc61",
@@ -1274,10 +1186,8 @@
         "lat_long": "33.74098,-84.3459247",
         "be_blurb": "",
         "google_blurb": "Popular eats & live beats",
-        "google_description": "Live music & hearty bar food are on the menu at this popular club hosting local & national acts.",
         "google_maps_web_url": "https://www.google.com/maps?q=The%20EARL%2C%20488%20Flat%20Shoals%20Ave%20SE%2C%20Atlanta%2C%20GA%2030316",
-        "google_place_id": "ChIJb1DZdlsB9YgRceexPKAJVS8",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJb1DZdlsB9YgRceexPKAJVS8"
     },
     {
         "id": "rec1FVsNQuA5QKSVP",
@@ -1290,10 +1200,8 @@
         "lat_long": "33.8011468,-84.3273145",
         "be_blurb": "",
         "google_blurb": "Modern take on a classic Jewish deli",
-        "google_description": "The New York-style deli goes contemporary at this upscale Jewish deli adorned with subway tiles.",
         "google_maps_web_url": "https://www.google.com/maps?q=The%20General%20Muir%2C%201540%20Avenue%20Place%20B-230%2C%20Atlanta%2C%20GA%2030329",
-        "google_place_id": "ChIJgdpxu1gG9YgRMQTfx8ArOMA",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJgdpxu1gG9YgRMQTfx8ArOMA"
     },
     {
         "id": "recBEx1had2meu04p",
@@ -1306,10 +1214,22 @@
         "lat_long": "33.7864149,-84.41462159999999",
         "be_blurb": "",
         "google_blurb": "Unique, hip center for contemporary arts",
-        "google_description": "Huge 19th-century factory housing a cool center for contemporary arts & original programming.",
         "google_maps_web_url": "https://www.google.com/maps?q=The%20Goat%20Farm%2C%201200%20Foster%20St%20NW%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJ0-RLy-sE9YgRaoFZr_JZytg",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ0-RLy-sE9YgRaoFZr_JZytg"
+    },
+    {
+        "id": "rec4e4kzaQ29Lpp8U",
+        "title": "The Merchant at Krog St Market",
+        "subtitle": "",
+        "address": "99 Krog St NE a\nAtlanta, GA 30307",
+        "phone": "(404) 331-1200",
+        "website_title": "themerchantatl.com",
+        "website_url": "http://themerchantatl.com/",
+        "lat_long": "33.757362,-84.364154",
+        "be_blurb": "",
+        "google_blurb": "",
+        "google_maps_web_url": "https://www.google.com/maps?q=The%20Merchant%20at%20Krog%20St%20Market%2C%2099%20Krog%20St%20NE%20a%2C%20Atlanta%2C%20GA%2030307",
+        "google_place_id": "ChIJh_6MB_gD9YgR9RydBHLzD_Y"
     },
     {
         "id": "rec7mef6MLdwNWndw",
@@ -1320,12 +1240,10 @@
         "website_title": "theporterbeerbar.com",
         "website_url": "http://www.theporterbeerbar.com/",
         "lat_long": "33.7651652,-84.3496761",
-        "be_blurb": "",
+        "be_blurb": "Crazy long beer menu and the vinegar popcorn is delish",
         "google_blurb": "Hip pub with rotating beer menu & grub",
-        "google_description": "A vast beer selection, inventive pub fare & a funky setting draw fans to this bustling, hip bar.",
         "google_maps_web_url": "https://www.google.com/maps?q=The%20Porter%20Beer%20Bar%2C%201939%2C%201156%20Euclid%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJTZAT2agG9YgRN9U-AyEJVt8",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJTZAT2agG9YgRN9U-AyEJVt8"
     },
     {
         "id": "rec8AT4yWRgWdm1an",
@@ -1338,26 +1256,22 @@
         "lat_long": "33.7662469,-84.3492347",
         "be_blurb": "",
         "google_blurb": "Offbeat hangout for burgers & brews",
-        "google_description": "Local fixture known for its burgers, beer & whiskey selection & offbeat, rock 'n' roll vibe.",
         "google_maps_web_url": "https://www.google.com/maps?q=The%20Vortex%2C%20438%20Moreland%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJG8Wzy6gG9YgRBQVGToEnXTg",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJG8Wzy6gG9YgRBQVGToEnXTg"
     },
     {
         "id": "recniCfMY58nfdoYw",
-        "title": "Urban Cottage Inc.",
+        "title": "Urban Cottage",
         "subtitle": "",
         "address": "998 North Highland Avenue Northeast\nAtlanta, GA 30306",
         "phone": "(404) 815-9993",
         "website_title": "urbancottageatlanta.com",
         "website_url": "http://urbancottageatlanta.com/",
         "lat_long": "33.7818532,-84.3543218",
-        "be_blurb": "",
+        "be_blurb": "Funky home store with new and antique pieces",
         "google_blurb": "",
-        "google_description": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Urban%20Cottage%20Inc.%2C%20998%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJ0Sn0fiAE9YgREm82QucDUZI",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ0Sn0fiAE9YgREm82QucDUZI"
     },
     {
         "id": "recpRyCIJXxTiiN2F",
@@ -1370,31 +1284,13 @@
         "lat_long": "33.7636046,-84.3509632",
         "be_blurb": "",
         "google_blurb": "Intimate venue for live music",
-        "google_description": "Converted movie theater now serves as an intimate concert hall featuring a variety of popular acts.",
         "google_maps_web_url": "https://www.google.com/maps?q=Variety%20Playhouse%2C%201099%20Euclid%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJg8d2cqkG9YgR6QyKwKKl_ck",
-        "list_list": "Atlanta"
-    },
-    {
-        "id": "recxN4q32DAeAEfGc",
-        "title": "Victory Sandwich Bar",
-        "subtitle": "",
-        "address": "913 Bernina Ave NE\nAtlanta, GA 30307",
-        "phone": "(404) 709-2892",
-        "website_title": "vicsandwich.com",
-        "website_url": "http://vicsandwich.com/",
-        "lat_long": "33.7639582,-84.3577426",
-        "be_blurb": "",
-        "google_blurb": "Cozy restaurant with a patio & Ping-Pong",
-        "google_description": "Small, casual restaurant & patio with contemporary, globally inspired sandwiches & Ping-Pong tables.",
-        "google_maps_web_url": "https://www.google.com/maps?q=Victory%20Sandwich%20Bar%2C%20913%20Bernina%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJK6RPxwME9YgRrapE4pbJ1uI",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJg8d2cqkG9YgR6QyKwKKl_ck"
     },
     {
         "id": "recmVDzsjKjFqvYGq",
         "title": "Victory Sandwich Bar",
-        "subtitle": "",
+        "subtitle": "Decatur",
         "address": "340 Church St\nDecatur, GA 30030",
         "phone": "(404) 377-9300",
         "website_title": "vicsandwich.com",
@@ -1402,10 +1298,22 @@
         "lat_long": "33.7742212,-84.2951521",
         "be_blurb": "",
         "google_blurb": "Hip hub for craft cocktails & light grub",
-        "google_description": "Buzzy, industrial-chic tavern featuring inventive sandwiches & cocktails, plus a patio.",
         "google_maps_web_url": "https://www.google.com/maps?q=Victory%20Sandwich%20Bar%2C%20340%20Church%20St%2C%20Decatur%2C%20GA%2030030",
-        "google_place_id": "ChIJQ5RtYT4H9YgRWCHJar0ceUU",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJQ5RtYT4H9YgRWCHJar0ceUU"
+    },
+    {
+        "id": "recxN4q32DAeAEfGc",
+        "title": "Victory Sandwich Bar",
+        "subtitle": "Inman Park",
+        "address": "913 Bernina Ave NE\nAtlanta, GA 30307",
+        "phone": "(404) 709-2892",
+        "website_title": "vicsandwich.com",
+        "website_url": "http://vicsandwich.com/",
+        "lat_long": "33.7639582,-84.3577426",
+        "be_blurb": "",
+        "google_blurb": "Cozy restaurant with a patio & Ping-Pong",
+        "google_maps_web_url": "https://www.google.com/maps?q=Victory%20Sandwich%20Bar%2C%20913%20Bernina%20Ave%20NE%2C%20Atlanta%2C%20GA%2030307",
+        "google_place_id": "ChIJK6RPxwME9YgRrapE4pbJ1uI"
     },
     {
         "id": "recrRgFK4e9ryIN1v",
@@ -1418,10 +1326,8 @@
         "lat_long": "33.7843988,-84.412097",
         "be_blurb": "",
         "google_blurb": "Simple, popular place for Southern fare",
-        "google_description": "Southern fare, including all-day breakfasts, draws fans to this hot spot with minimalist decor.",
         "google_maps_web_url": "https://www.google.com/maps?q=West%20Egg%20Cafe%2C%201100%20Howell%20Mill%20Rd%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJX5k9gOsE9YgRAQhW74OcJ7g",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJX5k9gOsE9YgRAQhW74OcJ7g"
     },
     {
         "id": "recGnqlGUfMbT3SDv",
@@ -1431,13 +1337,11 @@
         "phone": "(404) 872-7538",
         "website_title": "westsideprovisions.com",
         "website_url": "http://westsideprovisions.com/",
-        "lat_long": "33.7860665,-84.4122749",
+        "lat_long": "33.7860572,-84.4122998",
         "be_blurb": "",
         "google_blurb": "Refined complex for clothing & dining",
-        "google_description": "This upscale retail area has high-end shops for fashion & home goods, plus elegant restaurants.",
         "google_maps_web_url": "https://www.google.com/maps?q=Westside%20Provisions%20District%2C%201198%20Howell%20Mill%20Rd%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJhyz6qu4E9YgRp4rEpU_ozWY",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJhyz6qu4E9YgRp4rEpU_ozWY"
     },
     {
         "id": "rec1QQI61VLaZn64g",
@@ -1448,12 +1352,10 @@
         "website_title": "wwindmill.com",
         "website_url": "http://www.wwindmill.com/",
         "lat_long": "33.910698,-84.264397",
-        "be_blurb": "",
+        "be_blurb": "Parisian-themed Korean bakery; so cute!",
         "google_blurb": "Light bites & sweets in welcoming digs",
-        "google_description": "Charming Korean find featuring coffee & light fare, plus sweet treats including frozen yogurt.",
         "google_maps_web_url": "https://www.google.com/maps?q=White%20Windmill%20Bakery%20and%20Cafe%2C%205881%20Buford%20Hwy%20NE%2C%20Doraville%2C%20GA%2030340",
-        "google_place_id": "ChIJA0-40F2n9YgRBeywsjw5YCA",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJA0-40F2n9YgRBeywsjw5YCA"
     },
     {
         "id": "recDBwr7LkORZ5NpD",
@@ -1466,15 +1368,13 @@
         "lat_long": "33.7568961,-84.3639453",
         "be_blurb": "",
         "google_blurb": "Bright eatery for Middle Eastern food",
-        "google_description": "Colorful restaurant focusing on Mediterranean & Middle Eastern favorites from shawarma to falafel.",
         "google_maps_web_url": "https://www.google.com/maps?q=Yalla%2C%2099%20Krog%20St%20NE%2C%20Atlanta%2C%20GA%2030307",
-        "google_place_id": "ChIJ-4eEO_gD9YgRVKX-wlJkDVk",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJ-4eEO_gD9YgRVKX-wlJkDVk"
     },
     {
         "id": "rec65A2MKAIG4UhTi",
         "title": "YEAH! BURGER",
-        "subtitle": "",
+        "subtitle": "Virginia-Highland",
         "address": "1017 North Highland Avenue Northeast\nAtlanta, GA 30306",
         "phone": "(404) 437-7845",
         "website_title": "yeahburger.com",
@@ -1482,15 +1382,13 @@
         "lat_long": "33.78215,-84.3538914",
         "be_blurb": "",
         "google_blurb": "Natural & organic gourmet burgers",
-        "google_description": "Shakes, cocktails & beer pair with natural & organic burgers that come with an array of toppings.",
         "google_maps_web_url": "https://www.google.com/maps?q=YEAH!%20BURGER%2C%201017%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJHb_RgSAE9YgRtf-ZCy_laJY",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJHb_RgSAE9YgRtf-ZCy_laJY"
     },
     {
         "id": "recootwlTGRHr9FYK",
-        "title": "Yeah! Burger",
-        "subtitle": "",
+        "title": "YEAH! BURGER",
+        "subtitle": "West Midtown",
         "address": "1168 Howell Mill Rd E\nAtlanta, GA 30318",
         "phone": "(404) 496-4393",
         "website_title": "yeahburger.com",
@@ -1498,14 +1396,12 @@
         "lat_long": "33.7854264,-84.41217549999999",
         "be_blurb": "",
         "google_blurb": "Build-your-own burgers & organic fixings",
-        "google_description": "Beef, bison & veggie burgers with choice of toppings, plus shakes & spirits, in modern cafe digs.",
         "google_maps_web_url": "https://www.google.com/maps?q=Yeah!%20Burger%2C%201168%20Howell%20Mill%20Rd%20E%2C%20Atlanta%2C%20GA%2030318",
-        "google_place_id": "ChIJPTTZh-sE9YgRto8BbGMXR1I",
-        "list_list": "Atlanta"
+        "google_place_id": "ChIJPTTZh-sE9YgRto8BbGMXR1I"
     },
     {
         "id": "recwd8gBO2nwf9ILk",
-        "title": "Young Blood Boutique",
+        "title": "YOUNG BLOOD",
         "subtitle": "",
         "address": "632 North Highland Avenue Northeast\nAtlanta, GA 30306",
         "phone": "(404) 358-1286",
@@ -1514,9 +1410,7 @@
         "lat_long": "33.7716736,-84.3527897",
         "be_blurb": "",
         "google_blurb": "Unique handcrafted objects & art store",
-        "google_description": "Hip, unique boutique featuring a selection of handcrafted gifts, apparel, food & art.",
-        "google_maps_web_url": "https://www.google.com/maps?q=Young%20Blood%20Boutique%2C%20632%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306",
-        "google_place_id": "ChIJFWxO6QgE9YgRPjmYYNTJhlg",
-        "list_list": "Atlanta"
+        "google_maps_web_url": "https://www.google.com/maps?q=YOUNG%20BLOOD%2C%20632%20North%20Highland%20Avenue%20Northeast%2C%20Atlanta%2C%20GA%2030306",
+        "google_place_id": "ChIJFWxO6QgE9YgRPjmYYNTJhlg"
     }
 ]
