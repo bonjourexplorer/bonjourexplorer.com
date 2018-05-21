@@ -161,6 +161,7 @@
             return null;
         }
         this.activate_tooltip(place.google_place_id);
+        nav_map.flyTo(place.lat_long.split(',').map(Number));
         const address = place.address.split('\n').map(
             (i) => <React.Fragment key={ i }>{ i }<br/></React.Fragment>,
             ); // eslint-disable-line indent
