@@ -1,16 +1,17 @@
 // eslint-disable-next-line max-params
 (function main(App, Mobx, React, Mobx_react, City_store, Place_store, Leaflet, nav_map, cities_layer) { // eslint-disable-line max-len
     City_page.prototype = new React.Component;
-    City_page.constructor = City_page;
-    City_page.prototype.render = render;
-    City_page.prototype.componentWillMount = pre_mount;
-    City_page.prototype.componentWillReceiveProps = pre_render;
-    City_page.prototype.componentWillUnmount = pre_unmount;
-    City_page.prototype.render_city = render_city;
-    City_page.prototype.render_place = render_place;
-    City_page.prototype.render_place_li = render_place_li;
-    City_page.prototype.activate_tooltip = activate_tooltip;
-    City_page.prototype.deactivate_tooltip = deactivate_tooltip;
+    Object.assign(City_page.prototype, {
+        render,
+        componentWillMount: pre_mount,
+        componentDidMount: post_mount,
+        componentWillReceiveProps: pre_render,
+        componentWillUnmount: pre_unmount,
+        render_city,
+        render_place_li,
+        activate_tooltip,
+        deactivate_tooltip,
+        }); // eslint-disable-line indent
     return module.exports = Mobx_react.observer(City_page);
 
     // -----------
@@ -20,7 +21,8 @@
         const city = City_store.find(props.city_slug);
         const places = Place_store.get_all_in_city(props.city_slug);
         const place = Place_store.find(props.place_id);
-        this.state = { city, places, place };
+        const places_render_data = new Map;
+        this.state = { city, places, place, places_render_data };
     }
 
     function pre_mount() {
@@ -49,13 +51,10 @@
         const city = state.city.get();
         const places = state.places;
         const place = state.place.get();
-        // debugger;
         if (!city || !places) {
             return null;
         }
-        for (const marker of place_markers) {
-            this.deactivate_tooltip(marker);
-        }
+        this.deactivate_tooltip();
         const model = {
             go_back_url: place ? `/city/${ city.slug }` : '/',
             go_back_text: place
@@ -72,11 +71,7 @@
                 title={ model.go_back_text }
                 />
             <div className={ `city-page ${ place ? 'place-active' : '' }` }>
-                {
-                    place
-                        ? this.render_place(place, place_markers)
-                        : this.render_city(city, places)
-                }
+                { this.render_city() }
             </div>
             <a
                 href={ model.instagram_url }
@@ -88,10 +83,63 @@
             </React.Fragment>; // eslint-disable-line indent
     }
 
-    function render_city(city, places) {
+    function post_mount() {
+        const places_render_data = new Map;
+        const place_list_element
+            = document.getElementsByClassName('place-list')[0]
+            ; // eslint-disable-line indent
+        const place_list_item_elements
+            = document.getElementsByClassName('place-list-item')
+            ; // eslint-disable-line indent
+        let top_margin = 0;
+        let tallest_height = 0;
+        for (const list_item_element of place_list_item_elements) {
+            const details_element
+                = list_item_element.querySelector('.place-details')
+                ;
+            const details_height = details_element.offsetHeight;
+            places_render_data.set(
+                list_item_element.dataset.id,
+                { top_margin, details_height },
+                ); // eslint-disable-line indent
+            top_margin -= details_height;
+            tallest_height = Math.max(tallest_height, details_height);
+        }
+        const place_list_element_height
+            = place_list_element.offsetHeight
+            + top_margin // because it's negative
+            + tallest_height // static height that'll fit tallest detail section
+            ; // eslint-disable-line indent
+        this.setState({ places_render_data, place_list_element_height });
+    }
+
+    function pre_unmount() {
+        this.places_layer && nav_map.removeLayer(this.places_layer);
+        cities_layer
+            && nav_map.addLayer(cities_layer)
+            && nav_map.fitBounds(
+                cities_layer.getBounds(),
+                { padding: [ 50, 50 ], animate: true, duration: 2 },
+                ) // eslint-disable-line indent
+            ; // eslint-disable-line indent
+    }
+
+    // -----------
+
+    function render_city() {
+        const { place_markers } = this;
+        const { places, place_list_element_height } = this.state;
+        const city = this.state.city.get();
+        const active_place = this.state.place.get();
         const place_li_list = [];
         for (const place of places) {
-            place_li_list.push(this.render_place_li(city, place));
+            place_li_list.push(this.render_place_li(
+                { city, place, active_place },
+                )); // eslint-disable-line indent
+        }
+        if (active_place) {
+            this.activate_tooltip(active_place.google_place_id);
+            nav_map.flyTo(active_place.lat_long.split(',').map(Number));
         }
         return <React.Fragment>
             <h1 className="city-title">
@@ -111,7 +159,12 @@
                 { city.description }
             </p>
             <hr/>
-            <ul className="place-list">{ place_li_list }</ul>
+            <ul
+                className="place-list"
+                style={ { height: place_list_element_height || 'auto' } }
+                >
+                { place_li_list }
+            </ul>
             <hr/>
             <a
                 href={ city.google_maps_wishlist_url }
@@ -123,7 +176,8 @@
             </React.Fragment>; // eslint-disable-line indent
     }
 
-    function render_place_li(city, place) {
+    function render_place_li({ city, place, active_place }) {
+        const { places_render_data } = this.state;
         const google_blurb = place && place.google_blurb
             ? <span className="place-blurb-google">
                 { place.google_blurb }
@@ -135,9 +189,29 @@
             : null
             ; // eslint-disable-line indent
         const path = `/city/${ city.slug }/${ place.google_place_id }`;
+        const address = place.address.split('\n').map(
+            (i) => <React.Fragment key={ i }>{ i }<br/></React.Fragment>,
+            ); // eslint-disable-line indent
+
+        const style = {};
+        const render_data = this.state.places_render_data.get(place.id);
+        if (render_data && !isNaN(render_data.top_margin)) {
+            style.transform = `translateY(${ render_data.top_margin }px)`;
+        }
+        let className = 'place-list-item';
+        active_place
+            && place.google_place_id === active_place.google_place_id
+            && (className += ' on')
+            ; // eslint-disable-line indent
         return (
-            <li key={ place.id } className="place-list-item">
+            <li
+                key={ place.id }
+                className={ className }
+                data-id={ place.id }
+                style={ style }
+                >
                 <span
+                    data-google_place_id={ place.google_place_id }
                     data-path={ path }
                     className="place-title"
                     onClick={ click_place_li.bind(this) }
@@ -152,55 +226,23 @@
                     { google_blurb }
                     { be_blurb }
                 </div>
+                <div className="place-details">
+                    <a
+                        href={ `tel:${ place.phone.replace(/\s/g, '') }` }
+                        className="place-phone"
+                        >
+                        { place.phone }
+                    </a>
+                    <a
+                        href={ place.google_maps_web_url }
+                        target="_blank"
+                        className="place-address"
+                        >
+                        { address }
+                    </a>
+                </div>
             </li>
             ); // eslint-disable-line indent
-    }
-
-    function render_place(place) {
-        if (!place) {
-            return null;
-        }
-        this.activate_tooltip(place.google_place_id);
-        nav_map.flyTo(place.lat_long.split(',').map(Number));
-        const address = place.address.split('\n').map(
-            (i) => <React.Fragment key={ i }>{ i }<br/></React.Fragment>,
-            ); // eslint-disable-line indent
-        const google_blurb = place && place.google_blurb
-            ? <span className="place-blurb-google">
-                { place.google_blurb }
-                </span>
-            : null
-            ; // eslint-disable-line indent
-        const be_blurb = place && place.be_blurb
-            ? <span className="place-blurb-be">{ place.be_blurb }</span>
-            : null
-            ; // eslint-disable-line indent
-        return <React.Fragment>
-            <h1 className="place-title">
-                { place.title }
-                { ' ' }
-                <span className="place-subtitle">{ place.subtitle }</span>
-                <br/>
-                <a
-                    href={ place.website_url } target="_blank"
-                    className="google-maps-link"
-                    >
-                    { place.website_title }
-                </a>
-                <a
-                    href={ place.google_maps_web_url } target="_blank"
-                    className="google-maps-link"
-                    >
-                    View in Google Maps
-                </a>
-            </h1>
-            <p>{ place.phone }</p>
-            <p>{ address }</p>
-            <div className="place-blurb">
-                { google_blurb }
-                { be_blurb }
-            </div>
-            </React.Fragment>; // eslint-disable-line indent
     }
 
     function add_places_layer() {
@@ -253,17 +295,6 @@
         }
     }
 
-    function pre_unmount() {
-        this.places_layer && nav_map.removeLayer(this.places_layer);
-        cities_layer
-            && nav_map.addLayer(cities_layer)
-            && nav_map.fitBounds(
-                cities_layer.getBounds(),
-                { padding: [ 50, 50 ], animate: true, duration: 2 },
-                ) // eslint-disable-line indent
-            ; // eslint-disable-line indent
-    }
-
     // -----------
 
     function click_place_li(click_event) {
@@ -271,8 +302,7 @@
     }
 
     function mouseover_place_li(mouse_event) {
-        const id = mouse_event.target.dataset.path.split('/').pop();
-        this.activate_tooltip(id);
+        this.activate_tooltip(mouse_event.target.dataset.google_place_id);
     }
 
     function mouseout_place_li(mouse_event) {
@@ -280,8 +310,6 @@
     }
 
     function click_marker(click_event) {
-        const marker = click_event.target;
-        this.activate_tooltip(marker);
         const { city, place } = click_event.target.options;
         App.history.push({
             path: `/city/${ city.slug }/${ place.id }`,
