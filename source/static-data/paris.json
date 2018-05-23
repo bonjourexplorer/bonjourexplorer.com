@@ -1,19 +1,5 @@
 [
     {
-        "id": "recOzZl091nXnf9fV",
-        "title": "Trieze Bakery",
-        "subtitle": "",
-        "address": "5 Rue de Médicis\n75006 Paris\nFrance",
-        "phone": "+33 1 73 77 27 89",
-        "website_title": "treizebakeryparis.com",
-        "website_url": "http://www.treizebakeryparis.com/",
-        "lat_long": "48.8486723,2.3395874",
-        "be_blurb": "New location opening summer 2018, a quaint cafe serving French-influenced American Southern fare",
-        "google_blurb": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=13-%20a%20baker's%20dozen%2C%205%20Rue%20de%20M%C3%A9dicis%2C%2075006%20Paris%2C%20France",
-        "google_place_id": "ChIJnd8eIChu5kcRXfb40zqzYuo"
-    },
-    {
         "id": "recHnZCds1LuRUwyY",
         "title": "Aloha Café",
         "subtitle": "",
@@ -126,20 +112,6 @@
         "google_place_id": "ChIJRb8ClfBt5kcR5MxzOmRXNNY"
     },
     {
-        "id": "recC8cgmBYgIfZYIR",
-        "title": "Café des Deux Moulins",
-        "subtitle": "",
-        "address": "15 Rue Lepic\n75018 Paris\nFrance",
-        "phone": "+33 1 42 54 90 50",
-        "website_title": "cafedesdeuxmoulins.fr",
-        "website_url": "http://cafedesdeuxmoulins.fr/",
-        "lat_long": "48.8849197,2.3336242",
-        "be_blurb": "The cafe in which Amélie worked",
-        "google_blurb": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=Caf%C3%A9%20des%20Deux%20Moulins%2C%2015%20Rue%20Lepic%2C%2075018%20Paris%2C%20France",
-        "google_place_id": "ChIJt_Jyok9u5kcRRosujpFK-70"
-    },
-    {
         "id": "reciL2oPUJ6TViTEJ",
         "title": "Café Ineko",
         "subtitle": "",
@@ -168,18 +140,18 @@
         "google_place_id": "ChIJVVVFnvtt5kcRr7tzTFs_Ewk"
     },
     {
-        "id": "recYjS7sDWx39eQz5",
-        "title": "Les Catacombes de Paris",
+        "id": "recC8cgmBYgIfZYIR",
+        "title": "Café des Deux Moulins",
         "subtitle": "",
-        "address": "1 Avenue du Colonel Henri Rol-Tanguy\n75014 Paris\nFrance",
-        "phone": "+33 1 43 22 47 63",
-        "website_title": "catacombes.paris.fr",
-        "website_url": "http://www.catacombes.paris.fr/",
-        "lat_long": "48.8338325,2.3324222",
-        "be_blurb": "Arrive early to stand in the long, but totally worth it, line",
-        "google_blurb": "Tunnel complex for millions of skeletons",
-        "google_maps_web_url": "https://www.google.com/maps?q=Catacombs%20of%20Paris%2C%201%20Avenue%20du%20Colonel%20Henri%20Rol-Tanguy%2C%2075014%20Paris%2C%20France",
-        "google_place_id": "ChIJdbbQwbZx5kcRs7Qu5nPw18g"
+        "address": "15 Rue Lepic\n75018 Paris\nFrance",
+        "phone": "+33 1 42 54 90 50",
+        "website_title": "cafedesdeuxmoulins.fr",
+        "website_url": "http://cafedesdeuxmoulins.fr/",
+        "lat_long": "48.8849197,2.3336242",
+        "be_blurb": "The cafe in which Amélie worked",
+        "google_blurb": "",
+        "google_maps_web_url": "https://www.google.com/maps?q=Caf%C3%A9%20des%20Deux%20Moulins%2C%2015%20Rue%20Lepic%2C%2075018%20Paris%2C%20France",
+        "google_place_id": "ChIJt_Jyok9u5kcRRosujpFK-70"
     },
     {
         "id": "recbzHpeYUWD3SX38",
@@ -210,34 +182,6 @@
         "google_place_id": "ChIJn6TYegFy5kcRg_-xruXtHZY"
     },
     {
-        "id": "recfZtKfIgfIWAUI1",
-        "title": "East Mamma",
-        "subtitle": "",
-        "address": "133 Rue du Faubourg Saint-Antoine\n75011 Paris\nFrance",
-        "phone": "+33 1 43 41 32 15",
-        "website_title": "bigmammagroup.com",
-        "website_url": "https://www.bigmammagroup.com/fr/trattorias/east-mamma",
-        "lat_long": "48.8510269,2.3777857",
-        "be_blurb": "All of the Mamma restaurants are amazing, just arrive early to stand in line",
-        "google_blurb": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=East%20Mamma%2C%20133%20Rue%20du%20Faubourg%20Saint-Antoine%2C%2075011%20Paris%2C%20France",
-        "google_place_id": "ChIJq2DVqQhy5kcRa72Hhklq2bY"
-    },
-    {
-        "id": "recruUxlK6o6WVsbr",
-        "title": "Tour Eiffel",
-        "subtitle": "",
-        "address": "Champ de Mars\n5 Avenue Anatole France\n75007 Paris\nFrance",
-        "phone": "+33 892 70 12 39",
-        "website_title": "toureiffel.paris",
-        "website_url": "http://www.toureiffel.paris/",
-        "lat_long": "48.858370099999995,2.2944812999999997",
-        "be_blurb": "Bring a picnic! After sunset the iron lady sparkles on the hour, every hour (until 1AM) for 5 minutes; the best view is from Place du Trocadero",
-        "google_blurb": "Landmark 324m-high 19th-century tower",
-        "google_maps_web_url": "https://www.google.com/maps?q=Eiffel%20Tower%2C%20Champ%20de%20Mars%2C%205%20Avenue%20Anatole%20France%2C%2075007%20Paris%2C%20France",
-        "google_place_id": "ChIJLU7jZClu5kcR4PcOOO6p3I0"
-    },
-    {
         "id": "reczAEbtxaLYPjZ54",
         "title": "EMPREINTES - Le Concept Store des Metiers d'Art",
         "subtitle": "",
@@ -252,18 +196,18 @@
         "google_place_id": "ChIJ6xL7fAZu5kcRyGCoStxsjDE"
     },
     {
-        "id": "recmhOA2i6JtJzKYz",
-        "title": "Marché aux Puces Dauphine",
+        "id": "recfZtKfIgfIWAUI1",
+        "title": "East Mamma",
         "subtitle": "",
-        "address": "132-140 Rue des Rosiers\n75018 Paris\nFrance",
-        "phone": "+33 1 43 59 87 47",
-        "website_title": "tourisme93.com",
-        "website_url": "https://www.tourisme93.com/document.php?pagendx=959&engine_zoom=OrgIDFC930001625",
-        "lat_long": "48.9014355,2.3436999999999997",
-        "be_blurb": "Antique market open Saturday, Sunday, Monday",
+        "address": "133 Rue du Faubourg Saint-Antoine\n75011 Paris\nFrance",
+        "phone": "+33 1 43 41 32 15",
+        "website_title": "bigmammagroup.com",
+        "website_url": "https://www.bigmammagroup.com/fr/trattorias/east-mamma",
+        "lat_long": "48.8510269,2.3777857",
+        "be_blurb": "All of the Mamma restaurants are amazing, just arrive early to stand in line",
         "google_blurb": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=Flea%20market%2C%20132-140%20Rue%20des%20Rosiers%2C%2075018%20Paris%2C%20France",
-        "google_place_id": "ChIJB20SHfhu5kcRuV2dCiuSXTA"
+        "google_maps_web_url": "https://www.google.com/maps?q=East%20Mamma%2C%20133%20Rue%20du%20Faubourg%20Saint-Antoine%2C%2075011%20Paris%2C%20France",
+        "google_place_id": "ChIJq2DVqQhy5kcRa72Hhklq2bY"
     },
     {
         "id": "recea5MkGldNRYK5v",
@@ -462,6 +406,34 @@
         "google_place_id": "ChIJQWzKlMd65kcRtvMzCcfxEdM"
     },
     {
+        "id": "recPJo0jVEVjGa59G",
+        "title": "Jardin des Tuileries",
+        "subtitle": "",
+        "address": "113 Rue de Rivoli\n75001 Paris\nFrance",
+        "phone": "",
+        "website_title": "parisinfo.com",
+        "website_url": "http://www.parisinfo.com/musee-monument-paris/71304/Jardin-des-Tuileries",
+        "lat_long": "48.863491599999996,2.3274942999999997",
+        "be_blurb": "",
+        "google_blurb": "Vast statue-studded 17th-century gardens",
+        "google_maps_web_url": "https://www.google.com/maps?q=Tuileries%20Garden%2C%20113%20Rue%20de%20Rivoli%2C%2075001%20Paris%2C%20France",
+        "google_place_id": "ChIJAQAAMCxu5kcRx--_4QnbGcI"
+    },
+    {
+        "id": "recVoe49TuDCBR8Xm",
+        "title": "Jardin du Luxembourg",
+        "subtitle": "",
+        "address": "75006 Paris\nFrance",
+        "phone": "+33 1 42 34 20 00",
+        "website_title": "senat.fr",
+        "website_url": "http://www.senat.fr/visite/jardin/index.html",
+        "lat_long": "48.8462217,2.3371605",
+        "be_blurb": "Watch the cute, old men and children sail their toy boats in the pool",
+        "google_blurb": "Park with manicured lawns & statues",
+        "google_maps_web_url": "https://www.google.com/maps?q=Luxembourg%20Gardens%2C%2075006%20Paris%2C%20France",
+        "google_place_id": "ChIJe2jeNttx5kcRi_mJsGHdkQc"
+    },
+    {
         "id": "recTG8CxzXGlfn3V5",
         "title": "Jardin du Palais Royal",
         "subtitle": "",
@@ -488,6 +460,20 @@
         "google_blurb": "",
         "google_maps_web_url": "https://www.google.com/maps?q=L'Appartement%20S%C3%A9zane%2C%201%20Rue%20Saint-Fiacre%2C%2075002%20Paris%2C%20France",
         "google_place_id": "ChIJrxPpjj1u5kcRcNTVjRtiuhI"
+    },
+    {
+        "id": "recCElhViuzwNUrXn",
+        "title": "La Boutique Solidaire",
+        "subtitle": "",
+        "address": "3 Rue Saint-Fiacre\n75002 Paris\nFrance",
+        "phone": "",
+        "website_title": "sezane.com",
+        "website_url": "http://www.sezane.com/",
+        "lat_long": "48.8697556,2.3451594",
+        "be_blurb": "Sézane's new shop to benefit their charity, DEMAIN, which improves access to education, culture, and equal opportunities for children around the world",
+        "google_blurb": "",
+        "google_maps_web_url": "https://www.google.com/maps?q=The%20library%20S%C3%A9zane%2C%203%20Rue%20Saint-Fiacre%2C%2075002%20Paris%2C%20France",
+        "google_place_id": "ChIJXb3jiz1u5kcRtA_Dh0GbZXI"
     },
     {
         "id": "reckJJLEhFeRHXrph",
@@ -602,6 +588,20 @@
         "google_place_id": "ChIJAYa7ntNx5kcRcmJxXPZ7m9k"
     },
     {
+        "id": "recR8LMcbBtHIRubK",
+        "title": "Le Musée de la Vie Romantique",
+        "subtitle": "",
+        "address": "16 Rue Chaptal\n75009 Paris\nFrance",
+        "phone": "+33 1 55 31 95 67",
+        "website_title": "vie-romantique.paris.fr",
+        "website_url": "http://www.vie-romantique.paris.fr/",
+        "lat_long": "48.8811171,2.3335000999999997",
+        "be_blurb": "The Museum of Romantic Life has art from romance era but I recommend visiting the garden for a quiet place to read",
+        "google_blurb": "Museum evoking the Romantic period",
+        "google_maps_web_url": "https://www.google.com/maps?q=Museum%20of%20Romantic%20Life%2C%2016%20Rue%20Chaptal%2C%2075009%20Paris%2C%20France",
+        "google_place_id": "ChIJg4YBxUhu5kcRoIeyo9blO00"
+    },
+    {
         "id": "reciaT7O1mZu41Csq",
         "title": "Le Palais Royal",
         "subtitle": "",
@@ -616,6 +616,20 @@
         "google_place_id": "ChIJR3122B9u5kcR9RZ_OWxSy80"
     },
     {
+        "id": "recYjS7sDWx39eQz5",
+        "title": "Les Catacombes de Paris",
+        "subtitle": "",
+        "address": "1 Avenue du Colonel Henri Rol-Tanguy\n75014 Paris\nFrance",
+        "phone": "+33 1 43 22 47 63",
+        "website_title": "catacombes.paris.fr",
+        "website_url": "http://www.catacombes.paris.fr/",
+        "lat_long": "48.8338325,2.3324222",
+        "be_blurb": "Arrive early to stand in the long, but totally worth it, line",
+        "google_blurb": "Tunnel complex for millions of skeletons",
+        "google_maps_web_url": "https://www.google.com/maps?q=Catacombs%20of%20Paris%2C%201%20Avenue%20du%20Colonel%20Henri%20Rol-Tanguy%2C%2075014%20Paris%2C%20France",
+        "google_place_id": "ChIJdbbQwbZx5kcRs7Qu5nPw18g"
+    },
+    {
         "id": "recKA1Bwi4qiZxtTo",
         "title": "Librairie Galignani",
         "subtitle": "",
@@ -628,34 +642,6 @@
         "google_blurb": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Librairie%20Galignani%2C%20224%20Rue%20de%20Rivoli%2C%2075001%20Paris%2C%20France",
         "google_place_id": "ChIJ86LYdi5u5kcRNtIqita-MVY"
-    },
-    {
-        "id": "recfwK4dMOyxY91MS",
-        "title": "Pyramide du Louvre",
-        "subtitle": "",
-        "address": "75001 Paris\nFrance",
-        "phone": "+33 1 40 20 50 50",
-        "website_title": "louvre.fr",
-        "website_url": "http://www.louvre.fr/",
-        "lat_long": "48.8610135,2.3358583",
-        "be_blurb": "",
-        "google_blurb": "Iconic glass pyramid leading to museum",
-        "google_maps_web_url": "https://www.google.com/maps?q=Louvre%20Pyramid%2C%2075001%20Paris%2C%20France",
-        "google_place_id": "ChIJQdQyeiZu5kcRUfQHfB-OCLA"
-    },
-    {
-        "id": "recVoe49TuDCBR8Xm",
-        "title": "Jardin du Luxembourg",
-        "subtitle": "",
-        "address": "75006 Paris\nFrance",
-        "phone": "+33 1 42 34 20 00",
-        "website_title": "senat.fr",
-        "website_url": "http://www.senat.fr/visite/jardin/index.html",
-        "lat_long": "48.8462217,2.3371605",
-        "be_blurb": "Watch the cute, old men and children sail their toy boats in the pool",
-        "google_blurb": "Park with manicured lawns & statues",
-        "google_maps_web_url": "https://www.google.com/maps?q=Luxembourg%20Gardens%2C%2075006%20Paris%2C%20France",
-        "google_place_id": "ChIJe2jeNttx5kcRi_mJsGHdkQc"
     },
     {
         "id": "recR3LJ83HdMM2Odi",
@@ -700,6 +686,20 @@
         "google_place_id": "ChIJaQNeuP5t5kcRx-_U88kUajc"
     },
     {
+        "id": "recmhOA2i6JtJzKYz",
+        "title": "Marché aux Puces Dauphine",
+        "subtitle": "",
+        "address": "132-140 Rue des Rosiers\n75018 Paris\nFrance",
+        "phone": "+33 1 43 59 87 47",
+        "website_title": "tourisme93.com",
+        "website_url": "https://www.tourisme93.com/document.php?pagendx=959&engine_zoom=OrgIDFC930001625",
+        "lat_long": "48.9014355,2.3436999999999997",
+        "be_blurb": "Antique market open Saturday, Sunday, Monday",
+        "google_blurb": "",
+        "google_maps_web_url": "https://www.google.com/maps?q=Flea%20market%2C%20132-140%20Rue%20des%20Rosiers%2C%2075018%20Paris%2C%20France",
+        "google_place_id": "ChIJB20SHfhu5kcRuV2dCiuSXTA"
+    },
+    {
         "id": "recpXwO8VQXZ0xBlN",
         "title": "Merci",
         "subtitle": "",
@@ -728,18 +728,46 @@
         "google_place_id": "ChIJiQxv_05u5kcRESFIh6-QTvQ"
     },
     {
-        "id": "recR8LMcbBtHIRubK",
-        "title": "Le Musée de la Vie Romantique",
+        "id": "recHitRi1ZVRRbg2E",
+        "title": "Musée Picasso",
         "subtitle": "",
-        "address": "16 Rue Chaptal\n75009 Paris\nFrance",
-        "phone": "+33 1 55 31 95 67",
-        "website_title": "vie-romantique.paris.fr",
-        "website_url": "http://www.vie-romantique.paris.fr/",
-        "lat_long": "48.8811171,2.3335000999999997",
-        "be_blurb": "The Museum of Romantic Life has art from romance era but I recommend visiting the garden for a quiet place to read",
-        "google_blurb": "Museum evoking the Romantic period",
-        "google_maps_web_url": "https://www.google.com/maps?q=Museum%20of%20Romantic%20Life%2C%2016%20Rue%20Chaptal%2C%2075009%20Paris%2C%20France",
-        "google_place_id": "ChIJg4YBxUhu5kcRoIeyo9blO00"
+        "address": "5 Rue de Thorigny\n75003 Paris\nFrance",
+        "phone": "+33 1 85 56 00 36",
+        "website_title": "museepicassoparis.fr",
+        "website_url": "http://www.museepicassoparis.fr/",
+        "lat_long": "48.859877499999996,2.362285",
+        "be_blurb": "",
+        "google_blurb": "5,000 Picasso artworks & his archive",
+        "google_maps_web_url": "https://www.google.com/maps?q=Picasso%20National%20Museum%2C%205%20Rue%20de%20Thorigny%2C%2075003%20Paris%2C%20France",
+        "google_place_id": "ChIJS2t0QgFu5kcR92388prakcE"
+    },
+    {
+        "id": "rec6j1A3SUoBFpAld",
+        "title": "Musée Rodin",
+        "subtitle": "",
+        "address": "77 Rue de Varenne\n75007 Paris\nFrance",
+        "phone": "+33 1 44 18 61 10",
+        "website_title": "musee-rodin.fr",
+        "website_url": "http://www.musee-rodin.fr/",
+        "lat_long": "48.8553072,2.3158354",
+        "be_blurb": "",
+        "google_blurb": "Mansion & garden with sculptor's works",
+        "google_maps_web_url": "https://www.google.com/maps?q=Rodin%20Museum%2C%2077%20Rue%20de%20Varenne%2C%2075007%20Paris%2C%20France",
+        "google_place_id": "ChIJQ9vMHipw5kcRWHC2ESjYaGQ"
+    },
+    {
+        "id": "recfhmCfsUccvuTzI",
+        "title": "Musée des Arts Forains",
+        "subtitle": "",
+        "address": "53 Avenue des Terroirs de France\n75012 Paris\nFrance",
+        "phone": "+33 1 43 40 16 22",
+        "website_title": "arts-forains.com",
+        "website_url": "http://www.arts-forains.com/",
+        "lat_long": "48.8327074,2.3891317",
+        "be_blurb": "My \"happiest place on Earth,\" an interactive museum dedicated to turn of the century fair rides and games",
+        "google_blurb": "Fairground museum in an old wine hall",
+        "google_maps_web_url": "https://www.google.com/maps?q=Pavilions%20of%20Bercy%20-%20Museum%20of%20Fairground%20Arts%2C%2053%20Avenue%20des%20Terroirs%20de%20France%2C%2075012%20Paris%2C%20France",
+        "google_place_id": "ChIJoz9C9kBy5kcRPSVvYbS1MTs"
     },
     {
         "id": "recPkUSmAv14mdYeA",
@@ -812,20 +840,6 @@
         "google_place_id": "ChIJM0m4fPVt5kcR58XXPuog7d8"
     },
     {
-        "id": "recdzsj2BbiogOO5Y",
-        "title": "Palais de Tokyo",
-        "subtitle": "",
-        "address": "13 Avenue du Président Wilson\n75116 Paris\nFrance",
-        "phone": "+33 1 81 97 35 88",
-        "website_title": "palaisdetokyo.com",
-        "website_url": "http://palaisdetokyo.com/",
-        "lat_long": "48.864586599999996,2.2966748",
-        "be_blurb": "Super cool modern art museum open til midnight",
-        "google_blurb": "Contemporary art & exhibition space",
-        "google_maps_web_url": "https://www.google.com/maps?q=Palais%20de%20Tokyo%2C%2013%20Avenue%20du%20Pr%C3%A9sident%20Wilson%2C%2075116%20Paris%2C%20France",
-        "google_place_id": "ChIJC0I3-eZv5kcRHaMcXnrRLsk"
-    },
-    {
         "id": "recKXw60ZKtRbVzKh",
         "title": "Palais Garnier",
         "subtitle": "",
@@ -838,6 +852,20 @@
         "google_blurb": "Italian-style opera with Library Museum",
         "google_maps_web_url": "https://www.google.com/maps?q=Palais%20Garnier%2C%208%20Rue%20Scribe%2C%2075009%20Paris%2C%20France",
         "google_place_id": "ChIJOYNm1DBu5kcRZwdtKBzyq6k"
+    },
+    {
+        "id": "recdzsj2BbiogOO5Y",
+        "title": "Palais de Tokyo",
+        "subtitle": "",
+        "address": "13 Avenue du Président Wilson\n75116 Paris\nFrance",
+        "phone": "+33 1 81 97 35 88",
+        "website_title": "palaisdetokyo.com",
+        "website_url": "http://palaisdetokyo.com/",
+        "lat_long": "48.864586599999996,2.2966748",
+        "be_blurb": "Super cool modern art museum open til midnight",
+        "google_blurb": "Contemporary art & exhibition space",
+        "google_maps_web_url": "https://www.google.com/maps?q=Palais%20de%20Tokyo%2C%2013%20Avenue%20du%20Pr%C3%A9sident%20Wilson%2C%2075116%20Paris%2C%20France",
+        "google_place_id": "ChIJC0I3-eZv5kcRHaMcXnrRLsk"
     },
     {
         "id": "recnuO4L6uSePgJ7H",
@@ -868,6 +896,20 @@
         "google_place_id": "ChIJjU8HYRRu5kcRzS9dVftgR5c"
     },
     {
+        "id": "reccQX8XzAm7909xT",
+        "title": "Parc Monceau",
+        "subtitle": "",
+        "address": "35 Boulevard de Courcelles\n75008 Paris\nFrance",
+        "phone": "+33 1 42 27 39 56",
+        "website_title": "equipement.paris.fr",
+        "website_url": "http://equipement.paris.fr/parc-monceau-1804",
+        "lat_long": "48.8796835,2.308955",
+        "be_blurb": "",
+        "google_blurb": "Wooded park with 18th-century follies",
+        "google_maps_web_url": "https://www.google.com/maps?q=Parc%20Monceau%2C%2035%20Boulevard%20de%20Courcelles%2C%2075008%20Paris%2C%20France",
+        "google_place_id": "ChIJwxT3mL5v5kcRAsTd3v0lJOY"
+    },
+    {
         "id": "recA1xBa8qJ5bSgPl",
         "title": "Parc des Buttes-Chaumont",
         "subtitle": "",
@@ -882,18 +924,18 @@
         "google_place_id": "ChIJh9M-FMZt5kcRkZSVdmDta_I"
     },
     {
-        "id": "reccQX8XzAm7909xT",
-        "title": "Parc Monceau",
+        "id": "recYa9v7pb80kqvQV",
+        "title": "Passage Jouffroy",
         "subtitle": "",
-        "address": "35 Boulevard de Courcelles\n75008 Paris\nFrance",
-        "phone": "+33 1 42 27 39 56",
-        "website_title": "equipement.paris.fr",
-        "website_url": "http://equipement.paris.fr/parc-monceau-1804",
-        "lat_long": "48.8796835,2.308955",
-        "be_blurb": "",
-        "google_blurb": "Wooded park with 18th-century follies",
-        "google_maps_web_url": "https://www.google.com/maps?q=Parc%20Monceau%2C%2035%20Boulevard%20de%20Courcelles%2C%2075008%20Paris%2C%20France",
-        "google_place_id": "ChIJwxT3mL5v5kcRAsTd3v0lJOY"
+        "address": "10-12 Boulevard Montmartre\n75009 Paris\nFrance",
+        "phone": "",
+        "website_title": "parisinfo.com",
+        "website_url": "https://www.parisinfo.com/musee-monument-paris/100263/Passage-Jouffroy",
+        "lat_long": "48.8718517,2.3419335",
+        "be_blurb": "One of many covered passages with old world charm and cute shops",
+        "google_blurb": "",
+        "google_maps_web_url": "https://www.google.com/maps?q=Passage%20Jouffroy%2C%2010-12%20Boulevard%20Montmartre%2C%2075009%20Paris%2C%20France",
+        "google_place_id": "ChIJk5YNhD5u5kcRMxlC5_PUIuU"
     },
     {
         "id": "recBJYqKCg3ZscLXv",
@@ -922,62 +964,6 @@
         "google_blurb": "",
         "google_maps_web_url": "https://www.google.com/maps?q=Passage%20du%20Grand%20Cerf%2C%208%20Passage%20du%20Grand%20Cerf%2C%2075002%20Paris%2C%20France",
         "google_place_id": "ChIJw0vAjRlu5kcR4NV0-vt0wyw"
-    },
-    {
-        "id": "recYa9v7pb80kqvQV",
-        "title": "Passage Jouffroy",
-        "subtitle": "",
-        "address": "10-12 Boulevard Montmartre\n75009 Paris\nFrance",
-        "phone": "",
-        "website_title": "parisinfo.com",
-        "website_url": "https://www.parisinfo.com/musee-monument-paris/100263/Passage-Jouffroy",
-        "lat_long": "48.8718517,2.3419335",
-        "be_blurb": "One of many covered passages with old world charm and cute shops",
-        "google_blurb": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=Passage%20Jouffroy%2C%2010-12%20Boulevard%20Montmartre%2C%2075009%20Paris%2C%20France",
-        "google_place_id": "ChIJk5YNhD5u5kcRMxlC5_PUIuU"
-    },
-    {
-        "id": "recfhmCfsUccvuTzI",
-        "title": "Musée des Arts Forains",
-        "subtitle": "",
-        "address": "53 Avenue des Terroirs de France\n75012 Paris\nFrance",
-        "phone": "+33 1 43 40 16 22",
-        "website_title": "arts-forains.com",
-        "website_url": "http://www.arts-forains.com/",
-        "lat_long": "48.8327074,2.3891317",
-        "be_blurb": "My \"happiest place on Earth,\" an interactive museum dedicated to turn of the century fair rides and games",
-        "google_blurb": "Fairground museum in an old wine hall",
-        "google_maps_web_url": "https://www.google.com/maps?q=Pavilions%20of%20Bercy%20-%20Museum%20of%20Fairground%20Arts%2C%2053%20Avenue%20des%20Terroirs%20de%20France%2C%2075012%20Paris%2C%20France",
-        "google_place_id": "ChIJoz9C9kBy5kcRPSVvYbS1MTs"
-    },
-    {
-        "id": "recy4vhna5TMbmkh4",
-        "title": "Père Lachaise Cemetery",
-        "subtitle": "",
-        "address": "16 Rue du Repos\n75020 Paris\nFrance",
-        "phone": "+33 1 55 25 82 10",
-        "website_title": "parisinfo.com",
-        "website_url": "http://www.parisinfo.com/musee-monument-paris/71470/Cimetiere-du-Pere-Lachaise",
-        "lat_long": "48.861393,2.3933276",
-        "be_blurb": "Oscar Wilde's and many other's resting place in a hauntingly beautiful cemetery",
-        "google_blurb": "Well-known graves in leafy burial site",
-        "google_maps_web_url": "https://www.google.com/maps?q=P%C3%A8re%20Lachaise%20Cemetery%2C%2016%20Rue%20du%20Repos%2C%2075020%20Paris%2C%20France",
-        "google_place_id": "ChIJhadpXItt5kcRGWQLUydhz6E"
-    },
-    {
-        "id": "recHitRi1ZVRRbg2E",
-        "title": "Musée Picasso",
-        "subtitle": "",
-        "address": "5 Rue de Thorigny\n75003 Paris\nFrance",
-        "phone": "+33 1 85 56 00 36",
-        "website_title": "museepicassoparis.fr",
-        "website_url": "http://www.museepicassoparis.fr/",
-        "lat_long": "48.859877499999996,2.362285",
-        "be_blurb": "",
-        "google_blurb": "5,000 Picasso artworks & his archive",
-        "google_maps_web_url": "https://www.google.com/maps?q=Picasso%20National%20Museum%2C%205%20Rue%20de%20Thorigny%2C%2075003%20Paris%2C%20France",
-        "google_place_id": "ChIJS2t0QgFu5kcR92388prakcE"
     },
     {
         "id": "recdHPaPprcApOPpv",
@@ -1050,18 +1036,32 @@
         "google_place_id": "ChIJrV7f6Qlu5kcRxr8V7WXI1RY"
     },
     {
-        "id": "rec6j1A3SUoBFpAld",
-        "title": "Musée Rodin",
+        "id": "recfwK4dMOyxY91MS",
+        "title": "Pyramide du Louvre",
         "subtitle": "",
-        "address": "77 Rue de Varenne\n75007 Paris\nFrance",
-        "phone": "+33 1 44 18 61 10",
-        "website_title": "musee-rodin.fr",
-        "website_url": "http://www.musee-rodin.fr/",
-        "lat_long": "48.8553072,2.3158354",
+        "address": "75001 Paris\nFrance",
+        "phone": "+33 1 40 20 50 50",
+        "website_title": "louvre.fr",
+        "website_url": "http://www.louvre.fr/",
+        "lat_long": "48.8610135,2.3358583",
         "be_blurb": "",
-        "google_blurb": "Mansion & garden with sculptor's works",
-        "google_maps_web_url": "https://www.google.com/maps?q=Rodin%20Museum%2C%2077%20Rue%20de%20Varenne%2C%2075007%20Paris%2C%20France",
-        "google_place_id": "ChIJQ9vMHipw5kcRWHC2ESjYaGQ"
+        "google_blurb": "Iconic glass pyramid leading to museum",
+        "google_maps_web_url": "https://www.google.com/maps?q=Louvre%20Pyramid%2C%2075001%20Paris%2C%20France",
+        "google_place_id": "ChIJQdQyeiZu5kcRUfQHfB-OCLA"
+    },
+    {
+        "id": "recy4vhna5TMbmkh4",
+        "title": "Père Lachaise Cemetery",
+        "subtitle": "",
+        "address": "16 Rue du Repos\n75020 Paris\nFrance",
+        "phone": "+33 1 55 25 82 10",
+        "website_title": "parisinfo.com",
+        "website_url": "http://www.parisinfo.com/musee-monument-paris/71470/Cimetiere-du-Pere-Lachaise",
+        "lat_long": "48.861393,2.3933276",
+        "be_blurb": "Oscar Wilde's and many other's resting place in a hauntingly beautiful cemetery",
+        "google_blurb": "Well-known graves in leafy burial site",
+        "google_maps_web_url": "https://www.google.com/maps?q=P%C3%A8re%20Lachaise%20Cemetery%2C%2016%20Rue%20du%20Repos%2C%2075020%20Paris%2C%20France",
+        "google_place_id": "ChIJhadpXItt5kcRGWQLUydhz6E"
     },
     {
         "id": "recbJimvAUCVzKUND",
@@ -1148,20 +1148,6 @@
         "google_place_id": "ChIJpz0XH-Fx5kcRyAOJ9DQcjic"
     },
     {
-        "id": "recCElhViuzwNUrXn",
-        "title": "La Boutique Solidaire",
-        "subtitle": "",
-        "address": "3 Rue Saint-Fiacre\n75002 Paris\nFrance",
-        "phone": "",
-        "website_title": "sezane.com",
-        "website_url": "http://www.sezane.com/",
-        "lat_long": "48.8697556,2.3451594",
-        "be_blurb": "Sézane's new shop to benefit their charity, DEMAIN, which improves access to education, culture, and equal opportunities for children around the world",
-        "google_blurb": "",
-        "google_maps_web_url": "https://www.google.com/maps?q=The%20library%20S%C3%A9zane%2C%203%20Rue%20Saint-Fiacre%2C%2075002%20Paris%2C%20France",
-        "google_place_id": "ChIJXb3jiz1u5kcRtA_Dh0GbZXI"
-    },
-    {
         "id": "recVh9iLmMzDHhjQu",
         "title": "The Sunken Chip",
         "subtitle": "",
@@ -1176,18 +1162,32 @@
         "google_place_id": "ChIJ6-vRZgxu5kcRD_dy5332LDo"
     },
     {
-        "id": "recPJo0jVEVjGa59G",
-        "title": "Jardin des Tuileries",
+        "id": "recruUxlK6o6WVsbr",
+        "title": "Tour Eiffel",
         "subtitle": "",
-        "address": "113 Rue de Rivoli\n75001 Paris\nFrance",
-        "phone": "",
-        "website_title": "parisinfo.com",
-        "website_url": "http://www.parisinfo.com/musee-monument-paris/71304/Jardin-des-Tuileries",
-        "lat_long": "48.863491599999996,2.3274942999999997",
-        "be_blurb": "",
-        "google_blurb": "Vast statue-studded 17th-century gardens",
-        "google_maps_web_url": "https://www.google.com/maps?q=Tuileries%20Garden%2C%20113%20Rue%20de%20Rivoli%2C%2075001%20Paris%2C%20France",
-        "google_place_id": "ChIJAQAAMCxu5kcRx--_4QnbGcI"
+        "address": "Champ de Mars\n5 Avenue Anatole France\n75007 Paris\nFrance",
+        "phone": "+33 892 70 12 39",
+        "website_title": "toureiffel.paris",
+        "website_url": "http://www.toureiffel.paris/",
+        "lat_long": "48.858370099999995,2.2944812999999997",
+        "be_blurb": "Bring a picnic! After sunset the iron lady sparkles on the hour, every hour (until 1AM) for 5 minutes; the best view is from Place du Trocadero",
+        "google_blurb": "Landmark 324m-high 19th-century tower",
+        "google_maps_web_url": "https://www.google.com/maps?q=Eiffel%20Tower%2C%20Champ%20de%20Mars%2C%205%20Avenue%20Anatole%20France%2C%2075007%20Paris%2C%20France",
+        "google_place_id": "ChIJLU7jZClu5kcR4PcOOO6p3I0"
+    },
+    {
+        "id": "recOzZl091nXnf9fV",
+        "title": "Trieze Bakery",
+        "subtitle": "",
+        "address": "5 Rue de Médicis\n75006 Paris\nFrance",
+        "phone": "+33 1 73 77 27 89",
+        "website_title": "treizebakeryparis.com",
+        "website_url": "http://www.treizebakeryparis.com/",
+        "lat_long": "48.8486723,2.3395874",
+        "be_blurb": "New location opening summer 2018, a quaint cafe serving French-influenced American Southern fare",
+        "google_blurb": "",
+        "google_maps_web_url": "https://www.google.com/maps?q=13-%20a%20baker's%20dozen%2C%205%20Rue%20de%20M%C3%A9dicis%2C%2075006%20Paris%2C%20France",
+        "google_place_id": "ChIJnd8eIChu5kcRXfb40zqzYuo"
     },
     {
         "id": "recxwgW7MaIylHXl9",

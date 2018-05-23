@@ -157,7 +157,10 @@
                 routes: [
                     {
                         route_pattern: /^\/city\/([^/]+)(?:\/([^/]+))?$/,
-                        route_pattern_tokens: [ 'city_slug', 'place_id' ],
+                        route_pattern_tokens: [
+                            'city_slug',
+                            'google_place_id',
+                            ], // eslint-disable-line indent
                         page_component: require('./pages/city'),
                         }, // eslint-disable-line
                     ], // eslint-disable-line

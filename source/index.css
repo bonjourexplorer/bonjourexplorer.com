@@ -132,7 +132,7 @@ body.page .nav-map {
         &.active,
         &:hover {
             background-image: url('images/leaflet-icon-active.png');
-            z-index: 999 !important;
+            z-index: 9999 !important;
         }
     }
 
