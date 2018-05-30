@@ -261,6 +261,28 @@ body.page .nav-map {
             left: 0;
             width: 100vw;
             height: 50vh;
+
+            &::before {
+                content: '';
+                position: fixed;
+                    top: 50vh;
+                    left: 0;
+                    right: 0;
+                    z-index: 1000;
+                height: 4rem;
+                background: linear-gradient(
+                    to bottom,
+                    rgba(255, 255, 255, 1) 0%,
+                    rgba(255, 255, 255, 0.75) 50%,
+                    rgba(255, 255, 255, 0) 100%
+                    );
+            }
+
+            h1.city-title,
+            .place-list-item.on {
+                position: relative;
+                    z-index: 1000;
+            }
         }
 
         .go-back {
