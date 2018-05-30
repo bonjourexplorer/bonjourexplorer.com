@@ -209,18 +209,28 @@
         return <React.Fragment>
             <div className="city-summary">
                 <h1 className="city-title">
-                    { city.title }<br/>
+                    { city.title }
+                </h1>
+                <div className="google-maps-widget">
+                    <span className="note">
+                        Remember to <strong>Follow</strong>!
+                    </span>
                     <a
                         href={ city.google_maps_list_url }
                         target="_blank"
                         className="google-maps-link"
                         >
-                        View in Google Maps
+                        Favorites
                     </a>
-                    <span className="note">
-                        Remember to click <strong>Follow</strong>!
-                    </span>
-                </h1>
+                    <a
+                        href={ city.google_maps_wishlist_url }
+                        target="_blank"
+                        className="google-maps-wishlist-link"
+                        >
+                        Wishlist
+                    </a>
+                </div>
+                <hr/>
                 <p>
                     { city.description }
                 </p>
@@ -232,14 +242,6 @@
                 >
                 { place_li_list }
             </ul>
-            <hr/>
-            <a
-                href={ city.google_maps_wishlist_url }
-                target="_blank"
-                className="google-maps-wishlist-link"
-                >
-                View ⨳BE's Wishlist in Google Maps
-            </a>
             </React.Fragment>; // eslint-disable-line indent
     }
 
@@ -277,11 +279,6 @@
                 data-google_place_id={ place.google_place_id }
                 style={ style }
                 >
-                <a
-                    className="place-website"
-                    href={ place.website_url }
-                    target="_blank"
-                    />
                 <span
                     data-google_place_id={ place.google_place_id }
                     data-path={ path }
@@ -309,14 +306,30 @@
                     { google_blurb }
                     { be_blurb }
                 </div>
+                { render_website() }
                 <div className="place-details">
-                    { render_phone() }
                     { render_address() }
+                    { render_phone() }
                 </div>
             </li>
             ); // eslint-disable-line indent
 
         // -----------
+
+        function render_website() {
+            if (!place.website_url) {
+                return <span className="place-website"/>;
+            }
+            return (
+                <a
+                    className="place-website"
+                    href={ place.website_url }
+                    target="_blank"
+                    >
+                    { place.website_title || 'website' }
+                </a>
+                ); // eslint-disable-line indent
+        }
 
         function render_phone() {
             if (!place.phone) {

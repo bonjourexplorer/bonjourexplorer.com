@@ -6,67 +6,108 @@ main {
         padding: 0 !important;
 
         h1 {
-            color: #555555;
-            margin: 0.5rem 0 1rem;
+            padding: 1.5rem 1rem;
+            margin: -1rem -1rem 0;
             line-height: 1em;
+            color: white;
+            background-color: rgba(246, 194, 205, 1);
 
             &.place-title {
                 font-family: Muli, 'Helvetica Neue', Arial, Helvetica, sans-serif;
                 font-size: 2.5rem;
                 font-weight: 700;
             }
-
-            .note {
-                font-family: Muli, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-                font-size: 1.5rem;
-                line-height: 2.5rem;
-            }
         }
     }
-}
-
-.google-maps-link,
-.google-maps-wishlist-link {
-    display: block;
-    margin-top: 1rem;
-    font-family: Muli, sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: normal;
-}
-.google-maps-wishlist-link {
-    padding-bottom: 2rem;
 }
 
 .city-summary {
     margin: 1rem;
 }
 
+.google-maps-widget {
+    position: relative;
+    margin-top: 1.5rem;
+    padding-top: 3rem;
+    background-image: url('images/google-maps-logo.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto 2.5rem;
+
+    &::after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+
+    .note {
+        position: absolute;
+            top: 0;
+            right: 0;
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        color: #777777;
+    }
+
+    a {
+        display: block;
+        float: left;
+        width: 50%;
+        margin-top: 0.5rem;
+        font-family: Muli, sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        text-decoration: none !important;
+
+        &::before {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            width: 4.5rem;
+            height: 4.5rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 4.5rem;
+            background-image: url('images/be-social-icon.png');
+            border-radius: 4.5rem;
+        }
+
+        &:first-child {
+            clear: left;
+        }
+    }
+}
+
 .place-list {
     display: block;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: -2rem 0 0;
 }
     .place-list-item {
         padding: 1rem;
         transition: transform 0.25s, background-color 0.25s;
 
         &.on {
-            background-color: #fafafa;
+            background-color: #f8f8f8;
         }
     }
     .place-website {
-        float: right;
-        width: 3rem;
-        height: 3rem;
-        margin: 0.5rem 0 0.5rem 0.5rem;
-        background-position: center center;
+        display: block;
+        padding: 1rem 0 1rem 1.5em;
+        line-height: 2rem;
+        background-position: left center;
         background-repeat: no-repeat;
-        background-size: 3rem 3rem;
-        background-image: url('images/icon-external-link.svg');
-        background-color: rgba(246, 194, 205, 0.42);
-        border-radius: 7px;
+        background-size: 1em;
+        background-image: url('images/bullet-link.svg');
+
+        &:empty {
+            height: 1.25rem;
+            padding: 0;
+            background-image: none;
+        }
     }
     span.place-title {
         display: block;
@@ -83,6 +124,9 @@ main {
     .place-subtitle {
         opacity: 0.55;
         white-space: nowrap;
+    }
+    .place-blurb > *:not(:first-child) {
+        margin-top: 0.5rem;
     }
     .place-blurb-google,
     .place-blurb-be,
