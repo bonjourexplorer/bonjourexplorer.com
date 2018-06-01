@@ -246,22 +246,33 @@
     }
 
     function render_place_li({ city, place, active_place, top_padding }) {
+        const style = {};
+        const path = `/city/${ city.slug }/${ place.google_place_id }`;
+        const mouse_attributes = {
+            'data-google_place_id': place.google_place_id,
+            'data-path': path,
+            'data-noscroll': true,
+            onClick: click_place_li.bind(this),
+            onMouseOver: mouseover_place_li.bind(this),
+            onMouseOut: mouseout_place_li.bind(this),
+            }; // eslint-disable-line indent
+        const render_data = this.state.places_render_data
+            .get(place.google_place_id)
+            ; // eslint-disable-line indent
+
         const google_blurb = place && place.google_blurb
-            ? <span className="place-blurb-google">
+            ? <span className="place-blurb-google" { ...mouse_attributes }>
                 { place.google_blurb }
                 </span>
             : null
             ; // eslint-disable-line indent
         const be_blurb = place && place.be_blurb
-            ? <span className="place-blurb-be">{ place.be_blurb }</span>
+            ? <span className="place-blurb-be" { ...mouse_attributes }>
+                { place.be_blurb }
+                </span>
             : null
             ; // eslint-disable-line indent
-        const path = `/city/${ city.slug }/${ place.google_place_id }`;
 
-        const style = {};
-        const render_data = this.state.places_render_data
-            .get(place.google_place_id)
-            ; // eslint-disable-line indent
         if (render_data && !isNaN(render_data.top_margin)) {
             style.transform
                 = `translateY(${ render_data.top_margin + top_padding }px)`
@@ -276,33 +287,17 @@
             <li
                 key={ place.id }
                 className={ className }
-                data-google_place_id={ place.google_place_id }
                 style={ style }
+                { ...mouse_attributes }
                 >
-                <span
-                    data-google_place_id={ place.google_place_id }
-                    data-path={ path }
-                    data-noscroll={ true }
-                    className="place-title"
-                    onClick={ click_place_li.bind(this) }
-                    onMouseOver={ mouseover_place_li.bind(this) }
-                    onMouseOut={ mouseout_place_li.bind(this) }
-                    >
+                <span className="place-title" { ...mouse_attributes }>
                     { place.title }
                     { ' ' }
-                    <span
-                        data-google_place_id={ place.google_place_id }
-                        data-path={ path }
-                        data-noscroll={ true }
-                        className="place-subtitle"
-                        onClick={ click_place_li.bind(this) }
-                        onMouseOver={ mouseover_place_li.bind(this) }
-                        onMouseOut={ mouseout_place_li.bind(this) }
-                        >
+                    <span className="place-subtitle" { ...mouse_attributes }>
                         { place.subtitle }
                     </span>
                 </span>
-                <div className="place-blurb">
+                <div className="place-blurb" { ...mouse_attributes }>
                     { google_blurb }
                     { be_blurb }
                 </div>

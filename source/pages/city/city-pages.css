@@ -89,23 +89,24 @@ main {
 }
     .place-list-item {
         padding: 1rem;
-        transition: transform 0.25s, background-color 0.25s;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: transform 0.25s, background-color 0.5s;
 
         &.on {
-            background-color: #f8f8f8;
+            background-color: rgb(238, 238, 242);
+        }
+
+        &:hover {
+            background-color: rgb(252, 237, 241);
         }
     }
-        span.place-title {
+        .place-title {
             display: block;
             font-size: 2rem;
             font-weight: bold;
             line-height: 2.5rem;
             color: #FA0076;
-            cursor: pointer;
-
-            &:hover {
-                text-decoration: underline;
-            }
         }
         .place-subtitle {
             opacity: 0.55;
@@ -152,6 +153,7 @@ main {
         }
         .place-website {
             display: inline-block;
+            padding-right: 1rem;
             background-image: url('images/bullet-link.svg');
 
             &:empty {
