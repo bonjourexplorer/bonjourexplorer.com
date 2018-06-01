@@ -10,8 +10,7 @@
     nav_map,
     cities_layer,
     ) { // eslint-disable-line indent
-    City_page.prototype = new React.Component;
-    Object.assign(City_page.prototype, {
+    Object.assign(City_page.prototype = new React.Component, {
         render,
         componentWillMount: pre_mount,
         componentDidMount: post_mount,
@@ -141,28 +140,35 @@
     function post_render() {
         const { query } = this.props;
         const active_place = this.state.place.get();
-        if (active_place && (!query || false !== query['scroll?'])) {
+        const window_height = window.innerHeight;
+        const window_width = window.innerWidth;
+        const is_large_screen = window_height < window_width
+            || window_height > 640
+            ; // eslint-disable-line indent
+        const is_small_screen = !is_large_screen;
+
+        if (active_place && (
+            !query
+            || false !== query['scroll?']
+            || is_small_screen
+            )) { // eslint-disable-line indent
             const { places_render_data } = this.state;
             const active_place_render_data
                 = places_render_data.get(active_place.google_place_id)
                 ; // eslint-disable-line indent
             const { details_height } = active_place_render_data;
-            let { scroll_to } = active_place_render_data;
+            let scroll_to = active_place_render_data.scroll_to;
 
-            if (window.innerHeight < window.innerWidth
-                || window.innerHeight > 640
-                ) { // eslint-disable-line indent
-                scroll_to -= (window.innerHeight / 2) - details_height;
-            }
             this.city_drawer = this.city_drawer
                 || document.getElementsByClassName('city-page')[0]
                 ; // eslint-disable-line indent
-            if (this.city_drawer) {
-                this.is_fully_loaded
-                    ? this.scroll_nicely(this.city_drawer, scroll_to)
-                    : this.city_drawer.scrollTop = scroll_to
-                    ; // eslint-disable-line indent
-            }
+            is_large_screen
+                && (scroll_to -= (window_height / 2) - details_height)
+                ; // eslint-disable-line indent
+            this.is_fully_loaded
+                ? this.scroll_nicely(this.city_drawer, scroll_to)
+                : this.city_drawer.scrollTop = scroll_to
+                ; // eslint-disable-line indent
         }
         this.is_fully_loaded = true;
     }
