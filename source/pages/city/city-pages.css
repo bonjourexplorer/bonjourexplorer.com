@@ -1,3 +1,9 @@
+%clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
 main {
     text-align: justify;
     
@@ -26,6 +32,7 @@ main {
 }
 
 .google-maps-widget {
+    @extend %clearfix;
     position: relative;
     margin-top: 1.5rem;
     padding-top: 3rem;
@@ -33,12 +40,6 @@ main {
     background-repeat: no-repeat;
     background-position: left top;
     background-size: auto 2.5rem;
-
-    &::after {
-        display: block;
-        content: '';
-        clear: both;
-    }
 
     .note {
         position: absolute;
@@ -94,78 +95,86 @@ main {
             background-color: #f8f8f8;
         }
     }
-    .place-website {
-        display: block;
-        padding: 1rem 0 1rem 1.5em;
-        line-height: 2rem;
-        background-position: left center;
-        background-repeat: no-repeat;
-        background-size: 1em;
-        background-image: url('images/bullet-link.svg');
+        span.place-title {
+            display: block;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 2.5rem;
+            color: #FA0076;
+            cursor: pointer;
 
-        &:empty {
-            height: 1.25rem;
-            padding: 0;
-            background-image: none;
+            &:hover {
+                text-decoration: underline;
+            }
         }
-    }
-    span.place-title {
-        display: block;
-        font-size: 2rem;
-        font-weight: bold;
-        line-height: 2.5rem;
-        color: #FA0076;
-        cursor: pointer;
+        .place-subtitle {
+            opacity: 0.55;
+            white-space: nowrap;
+        }
+        .place-blurb > *:not(:first-child) {
+            margin-top: 0.5rem;
+        }
+        .place-blurb-google,
+        .place-blurb-be,
+        .place-website,
+        .place-phone,
+        .place-address {
+            display: block;
+        }
+        .place-blurb-be,
+        .place-website,
+        .place-phone,
+        .place-address {
+            background-position: left 0.25em;
+            background-repeat: no-repeat;
+            background-size: 1em;
+            padding-left: 1.5em;
+            background-image: url('images/bullet-be.svg');
+        }
+        .place-phone,
+        .place-address {
+            float: left;
+            clear: left;
+            padding-right: 1rem;
+        }
+        .place-website,
+        .place-phone {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            background-position: left center;
+        }
 
-        &:hover {
-            text-decoration: underline;
+        .place-blurb-google {
+            font-style: italic;
         }
-    }
-    .place-subtitle {
-        opacity: 0.55;
-        white-space: nowrap;
-    }
-    .place-blurb > *:not(:first-child) {
-        margin-top: 0.5rem;
-    }
-    .place-blurb-google,
-    .place-blurb-be,
-    .place-phone,
-    .place-address {
-        display: block;
-    }
-    .place-blurb-google {
-        font-style: italic;
-    }
-    .place-blurb-be,
-    .place-phone,
-    .place-address {
-        background-position: left 0.25em;
-        background-repeat: no-repeat;
-        background-size: 1em 1em;
-        padding-left: 1.5em;
-        background-image: url('images/bullet-be.svg');
-    }
-    .place-blurb-be {
-        background-image: url('images/bullet-be.svg');
-    }
-    .place-phone {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        background-image: url('images/bullet-phone.svg');
-        background-position: left center;
-    }
-    .place-address {
-        background-size: 1.25em 1.25em;
-        background-image: url('images/bullet-google-maps.png');
-    }
-    .place-details {
-        transform: scale(1, 0);
-        transform-origin: top center;
-        transition: transform 0.25s;
+        .place-blurb-be {
+            background-image: url('images/bullet-be.svg');
+        }
+        .place-website {
+            display: inline-block;
+            background-image: url('images/bullet-link.svg');
 
-        .place-list-item.on & {
-            margin-bottom: 0;
-            transform: scale(1, 1);
+            &:empty {
+                height: 1.25rem;
+                padding: 0;
+                background-image: none;
+            }
         }
-    }
+        .place-phone {
+            background-image: url('images/bullet-phone.svg');
+        }
+        .place-address {
+            background-size: 1.25em;
+            background-image: url('images/bullet-google-maps.png');
+        }
+        .place-details {
+            @extend %clearfix;
+            transform: scale(1, 0);
+            transform-origin: top center;
+            transition: transform 0.25s;
+
+            .place-list-item.on & {
+                margin-bottom: 0;
+                transform: scale(1, 1);
+            }
+        }
